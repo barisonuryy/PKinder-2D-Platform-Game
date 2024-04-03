@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6cca5d80-71f3-4793-a64a-9afe45756df4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2DDesignProjectt/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2DDesignProjectt/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2DDesignProjectt/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.2DDesignProjectt/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/~$ead me.docx.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/PenguinAnim.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/PenguinAnim.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/10Button_Midl_Yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/10Button_Midl_Yellow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/11Button_Midl_Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/11Button_Midl_Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/12Button_Long_Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/12Button_Long_Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/13Button_Long_Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/13Button_Long_Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/14Button_Long_Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/14Button_Long_Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/15Button_Long_Yellow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/15Button_Long_Yellow.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/16bttn-little.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/16bttn-little.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/17bttn-little.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/17bttn-little.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/18bttn-little.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/18bttn-little.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/19bttn-midl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/19bttn-midl.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/1button_green_middle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/1button_green_middle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/20bttn-midl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/20bttn-midl.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/21bttn-midl.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/21bttn-midl.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/22Button_Midl_Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/22Button_Midl_Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/23Button_Midl_Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/23Button_Midl_Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/24Button_Midl_Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/24Button_Midl_Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/25Button_Long_Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/25Button_Long_Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/26Button_Long_Blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/26Button_Long_Blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/27Button_Long_Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/27Button_Long_Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/28button_green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/28button_green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/29button_blue.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/29button_blue.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/2button_blue_middle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/2button_blue_middle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/30button_red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/30button_red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/3button_green_middle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/3button_green_middle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/4button_green_middle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/4button_green_middle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/5button_blue_middle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/5button_blue_middle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/6button_green_middle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/6button_green_middle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/7button_green_middle.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/7button_green_middle.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/8Button_Midl_Red.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/8Button_Midl_Red.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/9Button_Midl_Green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/9Button_Midl_Green.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/Scenes.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/buttons.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/buttons.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/buttons.psd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/buttons.psd.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/buttons_Back.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Buttons/buttons_Back.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/COURIE.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/COURIE.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JUMPBOOSTER.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/JUMPBOOSTER.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelManage.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelManage.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/Animations/penguin_jump.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/Animations/penguin_jump.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SmokeEffect.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SmokeEffect.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Rotator.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Rotator.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/MinotaurHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/MinotaurHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelManage/LevelManage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelManage/LevelManage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/BasicMech.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/BasicMech.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/couriMovement.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/couriMovement.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/groundLayer1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/groundLayer1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/jumper.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/jumper.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/rotateObj.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/rotateObj.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ship-steering-wheel-icon-flat-style-vector nbg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ship-steering-wheel-icon-flat-style-vector nbg.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/SFX.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2eJTcprhYGv9rubtgYwKuniGXGo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\baris\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\baris\\AppData\\Roaming\\JetBrains\\Rider2023.2\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\baris\\AppData\\Local\\Symbols\\src&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\baris\Documents\GitHub\Design2DProject -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\baris\Documents\GitHub\Design2DProject" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2021.3.21f1\Editor\Unity.exe" />
+      <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\baris\Documents\GitHub\Design2DProject -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\baris\Documents\GitHub\Design2DProject" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6cca5d80-71f3-4793-a64a-9afe45756df4" name="Changes" comment="" />
+      <created>1711621765829</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711621765829</updated>
+      <workItem from="1711621772799" duration="8000" />
+      <workItem from="1711621826346" duration="1197000" />
+      <workItem from="1711997362725" duration="454000" />
+      <workItem from="1711998164540" duration="22000" />
+      <workItem from="1712006011701" duration="150000" />
+      <workItem from="1712052704038" duration="2688000" />
+      <workItem from="1712141884902" duration="8075000" />
+      <workItem from="1712163395301" duration="5150000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

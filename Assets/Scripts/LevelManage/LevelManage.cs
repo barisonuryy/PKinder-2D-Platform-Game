@@ -7,6 +7,7 @@ using UnityEngine.UIElements;
 using UnityEngine.UI;
 using TMPro;
 using Image = UnityEngine.UI.Image;
+using Slider = UnityEngine.UI.Slider;
 
 public class LevelManage : MonoBehaviour
 {
@@ -20,12 +21,19 @@ public class LevelManage : MonoBehaviour
     public bool dead;
     public bool isFalled;
     [SerializeField] private GameObject mainCharacter;
+    [SerializeField] private Slider[] volumeSlider;
+     public AudioSource[] audioSource;
 
     void Start()
     {
+        for(int i=0;i<audioSource.Length;i++)
+        volumeSlider[i].onValueChanged.AddListener(delegate { ChangeVolume(); });
      
-     
-     
+    }
+    public void ChangeVolume()
+    {
+        for(int i=0;i<audioSource.Length;i++)
+        audioSource[i].volume = volumeSlider[i].value;
     }
 
     // Update is called once per frame

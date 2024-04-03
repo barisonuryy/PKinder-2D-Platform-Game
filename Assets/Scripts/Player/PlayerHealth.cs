@@ -158,7 +158,15 @@ public class PlayerHealth : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D other)
     {
-      
+        if (other.gameObject.CompareTag("Obstacle"))
+        {
+            TakeDamage(2);
+        }
+        if(other.gameObject.CompareTag("Arrow"))
+        {
+            TakeDamage(3);
+            Destroy(other.gameObject);
+        }
     }
 
     public void TakeDamageP(bool isPunched)

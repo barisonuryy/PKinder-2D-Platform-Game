@@ -20,7 +20,7 @@ public class BasicMech : MonoBehaviour
     public float horizontalS;
     private bool isFacingRight = true;
     public bool canDash = true;
-    private bool isDashing;
+    public bool isDashing;
     public  bool dashControl;
     public float dashingPower = 24f;
     public float dashingTime = 0.2f;
@@ -134,9 +134,10 @@ public class BasicMech : MonoBehaviour
                     if (enemy.gameObject.name == "Minotaur")
                     {
                         enemy.GetComponentInParent<MinotaurHealth>().TakeDamageMinotaur(10);
-                       
-                     
-
+                    }
+                    if (enemy.gameObject.CompareTag("Archer"))
+                    {
+                        enemy.GetComponentInParent<GoblinHealth>().TakeDamageGoblin(10);
                     }
                   
 

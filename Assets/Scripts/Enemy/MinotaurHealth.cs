@@ -10,7 +10,6 @@ public class MinotaurHealth : MonoBehaviour
     public float MinoMaxHealth = 100f;
     [SerializeField] GameObject smoke,score;
     private bool isDead;
-    [SerializeField] ParticleSystem prt;
     [SerializeField] private LevelManage _levelManage;
     private bool canContAttack;
     private Animator anim;
@@ -62,17 +61,27 @@ public class MinotaurHealth : MonoBehaviour
         if (MinoHealth < MinoMaxHealth)
         {
             MinoHealth += (incHealth / MinoMaxHealth) * 100;
-            setParticleState();
+            //setParticleState();
         }
         else
             MinoHealth = MinoMaxHealth;
         
 
     }
-    async void setParticleState()
+
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("Snowball"))
+        {
+            TakeDamageMinotaur(5);
+            Destroy(other.gameObject);
+        }
+    }
+
+    /*async void setParticleState()
     {
         prt.Play();
         await Task.Delay(1500);
         prt.Stop();
-    }
+    }*/
 }

@@ -4,11 +4,14 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Bullet
   - CatEnemy
   - Enemy
   - Courier
   - Platform
+  - Obstacle
+  - Archer
+  - Arrow
+  - Snowball
   layers:
   - Default
   - TransparentFX
