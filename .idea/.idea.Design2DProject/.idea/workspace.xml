@@ -5,113 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cca5d80-71f3-4793-a64a-9afe45756df4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.2DDesignProjectt/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.2DDesignProjectt/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.2DDesignProjectt/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.2DDesignProjectt/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/20 Logos PSD/~$ead me.docx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/PenguinAnim.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/PenguinAnim.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/10Button_Midl_Yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/10Button_Midl_Yellow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/11Button_Midl_Blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/11Button_Midl_Blue.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/12Button_Long_Blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/12Button_Long_Blue.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/13Button_Long_Green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/13Button_Long_Green.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/14Button_Long_Red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/14Button_Long_Red.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/15Button_Long_Yellow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/15Button_Long_Yellow.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/16bttn-little.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/16bttn-little.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/17bttn-little.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/17bttn-little.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/18bttn-little.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/18bttn-little.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/19bttn-midl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/19bttn-midl.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/1button_green_middle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/1button_green_middle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/20bttn-midl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/20bttn-midl.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/21bttn-midl.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/21bttn-midl.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/22Button_Midl_Green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/22Button_Midl_Green.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/23Button_Midl_Red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/23Button_Midl_Red.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/24Button_Midl_Blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/24Button_Midl_Blue.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/25Button_Long_Green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/25Button_Long_Green.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/26Button_Long_Blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/26Button_Long_Blue.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/27Button_Long_Red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/27Button_Long_Red.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/28button_green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/28button_green.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/29button_blue.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/29button_blue.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/2button_blue_middle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/2button_blue_middle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/30button_red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/30button_red.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/3button_green_middle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/3button_green_middle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/4button_green_middle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/4button_green_middle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/5button_blue_middle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/5button_blue_middle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/6button_green_middle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/6button_green_middle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/7button_green_middle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/7button_green_middle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/8Button_Midl_Red.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/8Button_Midl_Red.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/9Button_Midl_Green.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/PNG/9Button_Midl_Green.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/buttons.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/buttons.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/buttons.psd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/buttons.psd.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/buttons_Back.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Buttons/buttons_Back.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/COURIE.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/COURIE.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/JUMPBOOSTER.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/JUMPBOOSTER.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelManage.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelManage.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/Animations/penguin_jump.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Nine Pines Animation/2D Character Sprite Animation - Penguin/Animations/penguin_jump.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SmokeEffect.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SmokeEffect.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Rotator.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Rotator.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Design2DProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Design2DProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RangeAttack/weaponScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RangeAttack/weaponScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/MinotaurHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/MinotaurHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelManage/LevelManage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelManage/LevelManage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/BasicMech.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/BasicMech.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/couriMovement.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/couriMovement.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/groundLayer1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/groundLayer1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/jumper.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/jumper.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/rotateObj.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/rotateObj.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ship-steering-wheel-icon-flat-style-vector nbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/ship-steering-wheel-icon-flat-style-vector nbg.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,6 +103,7 @@
       <workItem from="1712052704038" duration="2688000" />
       <workItem from="1712141884902" duration="8075000" />
       <workItem from="1712163395301" duration="5150000" />
+      <workItem from="1712178662560" duration="821000" />
     </task>
     <servers />
   </component>

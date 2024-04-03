@@ -103,7 +103,22 @@ public class weaponScript : MonoBehaviour
             }
         }
 
-        if (Input.GetMouseButtonDown(0) && isShoot && Time.time > weapTime && haveAmmo)
+        if (Input.GetMouseButton(0))
+        {
+            for (int i = 0; i < numberofPoints; i++)
+            {
+                points[i].SetActive(true);
+            }
+        }
+        else
+        {
+            for (int i = 0; i < numberofPoints; i++)
+            {
+                points[i].SetActive(false);
+            }
+        }
+
+        if (Input.GetMouseButtonUp(0) && isShoot && Time.time > weapTime && haveAmmo)
         {
  
             weapTime = Time.time + coolDownWeap;
