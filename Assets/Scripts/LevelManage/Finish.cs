@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class Finish : MonoBehaviour
 {
    public bool passed;
+   [SerializeField] private GameObject mainCharacter;
     private void Start()
     {
         
@@ -15,8 +16,8 @@ public class Finish : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
           
-           GameObject.Find("Kinder").GetComponent<BasicMech>().enabled= false;
-            GameObject.Find("Kinder").GetComponent<Animator>().enabled = false;
+            mainCharacter.GetComponent<BasicMech>().enabled= false;
+            mainCharacter.GetComponent<Animator>().enabled = false;
             passed= true;
 
 

@@ -6,9 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="6cca5d80-71f3-4793-a64a-9afe45756df4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Design2DProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Design2DProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RangeAttack/weaponScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RangeAttack/weaponScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Oswald Bold SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Roboto-Bold SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FirstLevel.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelManage/Finish.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelManage/Finish.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelManage/GoldCounter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelManage/GoldCounter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelManage/LevelManage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelManage/LevelManage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LevelManage/starSitutation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LevelManage/starSitutation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/BasicMech.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/BasicMech.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/generalHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/generalHealth.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,6 +111,7 @@
       <workItem from="1712141884902" duration="8075000" />
       <workItem from="1712163395301" duration="5150000" />
       <workItem from="1712178662560" duration="821000" />
+      <workItem from="1712218704047" duration="8305000" />
     </task>
     <servers />
   </component>

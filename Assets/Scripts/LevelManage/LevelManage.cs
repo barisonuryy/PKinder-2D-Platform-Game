@@ -13,16 +13,15 @@ public class LevelManage : MonoBehaviour
 {
     // Start is called before the first frame update
 
-    public PlayerHealth h;
     bool p;
     public AudioSource bgm;
     public AudioSource PauseClick;
     public int score;
     public bool dead;
-    public bool isFalled;
     [SerializeField] private GameObject mainCharacter;
     [SerializeField] private Slider[] volumeSlider;
      public AudioSource[] audioSource;
+     
 
     void Start()
     {
@@ -39,13 +38,6 @@ public class LevelManage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-     
-
-       
-
-
-
-        // Orijinal d��menin �zelliklerini yeni d��meye kopyalay�
         p = GetComponentInChildren<Finish>().passed;
         if (PlayerPrefs.GetInt("generalHealth") == 0)
         {
@@ -63,18 +55,26 @@ public class LevelManage : MonoBehaviour
      
     }
 
+    IEnumerator RestartGameOrder()
+    {
+        StartCoroutine(GetComponent<FadeInFadeOut>().FadeIn(mainCharacter.GetComponent<SpriteRenderer>()));
+        yield return new WaitForSeconds(1f);
+        StartCoroutine(GetComponent<FadeInFadeOut>().FadeOut(mainCharacter.GetComponent<SpriteRenderer>(),-0.05f));
+        yield return new WaitForSeconds(1f);
+       
+    }
 
 
 
-    private void OnTriggerEnter2D(Collider2D collision)
+
+    private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            isFalled = true;
+            StartCoroutine(mainCharacter.GetComponent<PlayerHealth>().DecreaseGeneralHealth());
             SceneManager.LoadScene((SceneManager.GetActiveScene().name));
-
         }
-        else isFalled = false;
+      
     }
 
     private void showScore(int score)

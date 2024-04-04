@@ -28,37 +28,37 @@ public class starSitutation : MonoBehaviour
         passed=p.passed;
         LevelManage d = GameObject.Find("LevelManager").GetComponent<LevelManage>();
         dead=d.dead;
-        StartCoroutine(showStars());
+        StartCoroutine(showStars(passed,score,dead));
     }
-    private IEnumerator showStars()
+    private IEnumerator showStars(bool pass,int scr,bool isDead)
     {
         
-        if (passed)
+        if (pass)
         {
            
-            if (score >= 150&&score<250)
+            if (scr >= 150&&scr<250)
             {
                 index = 0;
-                defineStar(index, index + 3);
-                yield return new WaitForSeconds(1.5f);
-                defineStar(index+4,index+1);
+                defineStar(index+1, index + 4);
                 yield return new WaitForSeconds(1.5f);
                 defineStar(index+5,index+2);
+                yield return new WaitForSeconds(1.5f);
+                defineStar(index+6,index+3);
             }
-            else if (score >= 250 && score < 350)
+            else if (scr >= 250 && scr < 350)
             {
                 index = 0;
-                for(int i = 0; i < 2; i++)
+                for(int i = 1; i < 3; i++)
                 {
                     defineStar(index+i,index+i+3);
                     yield return new WaitForSeconds(1.5f);
                 }
-                    defineStar(index + 5,index+2);
+                    defineStar(index + 6,index+3);
             }
-            else if (score >= 350)
+            else if (scr >= 350)
             {
                 index = 0;
-                for(int i = 0; i < 3; i++)
+                for(int i = 1; i < 4; i++)
                 {
                     defineStar(index+i,index+i+3);
                     yield return new WaitForSeconds(1.5f);
@@ -66,12 +66,12 @@ public class starSitutation : MonoBehaviour
              
             }
         }
-        if (dead)
+        if (isDead)
         {
 
             
             index = 3;
-             for (int i = 0; i < 3; i++)
+             for (int i = 1; i < 4; i++)
              {
                  defineStar(index + i, index + i - 3);
                  yield return new WaitForSeconds(1f);

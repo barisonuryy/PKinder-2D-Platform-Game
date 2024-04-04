@@ -21,7 +21,7 @@ public class GoldCounter : MonoBehaviour
     {
         LevelManage s = GameObject.Find("LevelManager").GetComponent<LevelManage>();
         gold = s.score/6;
-        goldText.text = "              + "+gold;
+        goldText.SetText("+"+gold);
         PlayerPrefs.SetInt("goldCount", PlayerPrefs.GetInt("goldCount") + gold);
 
 

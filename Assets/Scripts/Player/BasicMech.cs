@@ -160,19 +160,26 @@ public class BasicMech : MonoBehaviour
         tr.emitting = true;
         move = false;
         jump = false;
-        foreach (var boxCollider in _boxCollider2DEnemies)
-        {
-            boxCollider.isTrigger = true;
-        }
+       
+            foreach (var boxCollider in _boxCollider2DEnemies)
+            {
+                if(boxCollider!=null)
+                boxCollider.isTrigger = true;
+            }
+
         yield return new WaitForSeconds(dashingTime);
         tr.emitting = false;
         rb.gravityScale=originalGravity;
         isDashing = false;
         jump = true; 
-        foreach (var boxCollider in _boxCollider2DEnemies)
-        {
-            boxCollider.isTrigger = false;
-        }
+       
+            foreach (var boxCollider in _boxCollider2DEnemies)
+            {
+                if(boxCollider!=null)
+                boxCollider.isTrigger = false;
+            }
+    
+
         yield return new WaitForSeconds(dashingCoolDown);
         canDash = true;
     }

@@ -13,6 +13,8 @@ public class PlayerHealth : MonoBehaviour
     // Start is called before the first frame update
     
     [SerializeField] private Light2D lt;
+    [SerializeField] private GameObject[] hideObjects;
+    [SerializeField] private LevelManage _levelManage;
     private bool invicible;
     public Finish p;
     public float speed;
@@ -39,13 +41,12 @@ public class PlayerHealth : MonoBehaviour
     }
     void Update()
     {
-        LevelManage d = GameObject.Find("LevelManager").GetComponent<LevelManage>();
-        if(health <=0||d.isFalled) {
+       
+        if(health <=0) {
            health = maxHealth;
-           PlayerPrefs.SetInt("generalHealth", PlayerPrefs.GetInt("generalHealth") - 1);
-            
-          
+           PlayerPrefs.SetInt("generalHealth",PlayerPrefs.GetInt("generalHealth")-1);
         }
+      
       Debug.Log("Mevcut can"+PlayerPrefs.GetInt("genHealth"));
 
           PlayerPrefs.SetInt("genHeal", PlayerPrefs.GetInt("generalHealth"));
@@ -79,7 +80,7 @@ public class PlayerHealth : MonoBehaviour
          Invoke("DestroyObj", 1.5f);
          Invoke("endLevelShowUI", 2.74f);
         }
-        else if(d.dead)
+        else if(_levelManage.dead&&_levelManage!=null)
         {
             Invoke("endLevelShowUI", 1f);
         }
@@ -90,6 +91,8 @@ public class PlayerHealth : MonoBehaviour
         }
         PlayerPrefs.SetFloat("playerHealth", health);
     }
+
+
     private void DestroyObj()
     {
         if (Vector2.Distance(transform.position, g.transform.position) < 100)
@@ -131,7 +134,11 @@ public class PlayerHealth : MonoBehaviour
     {
        
         endLevelUI.SetActive(true);
-        GameObject.Find("PauseButton").SetActive(false);
+        foreach (var objects in hideObjects)
+        {
+            objects.SetActive(false);
+        }
+        
         
     }
     public void StartFading()
@@ -187,9 +194,10 @@ public class PlayerHealth : MonoBehaviour
         
     }
 
-IEnumerator DecreaseGeneralHealth()
+public IEnumerator DecreaseGeneralHealth()
     {
         PlayerPrefs.SetInt("generalHealth",PlayerPrefs.GetInt("generalHealth")-1);
+        PlayerPrefs.SetInt("genHeal", PlayerPrefs.GetInt("generalHealth"));
         invicible = true;
         StartCoroutine(LightOff(0.9f));
         yield return new WaitForSeconds(3f);

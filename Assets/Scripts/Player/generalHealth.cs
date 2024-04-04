@@ -19,7 +19,7 @@ public class generalHealth : MonoBehaviour
     void Update()
     {
         LevelManage d = GameObject.Find("LevelManager").GetComponent<LevelManage>();
-      
+      Debug.Log(PlayerPrefs.GetInt("genHeal") );
 
         if (PlayerPrefs.GetInt("genHeal") == 3)
         {
