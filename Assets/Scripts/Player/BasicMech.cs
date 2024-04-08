@@ -101,7 +101,7 @@ public class BasicMech : MonoBehaviour
         }
            
     }
-    void Flip()
+  public  void Flip()
     {
         if(!isFacingRight&&directionX>0f||isFacingRight&&directionX<0f) {
             isFacingRight = !isFacingRight;

@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
@@ -39,7 +40,8 @@ public class LevelManage : MonoBehaviour
     void Update()
     {
         p = GetComponentInChildren<Finish>().passed;
-        if (PlayerPrefs.GetInt("generalHealth") == 0)
+        int health = mainCharacter.GetComponent<PlayerHealth>().initialHealth;
+        if (health == 0)
         {
             //SceneManager.LoadScene("SampleScene");
             dead = true;
@@ -72,7 +74,7 @@ public class LevelManage : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             StartCoroutine(mainCharacter.GetComponent<PlayerHealth>().DecreaseGeneralHealth());
-            SceneManager.LoadScene((SceneManager.GetActiveScene().name));
+            StartCoroutine(mainCharacter.GetComponent<PlayerHealth>().Respawn(0.5f));
         }
       
     }
@@ -112,6 +114,7 @@ public class LevelManage : MonoBehaviour
     }
     public void restartGame()
     {
+        mainCharacter.GetComponent<PlayerHealth>().SaveHealthValues();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1;
     }
@@ -130,5 +133,10 @@ public class LevelManage : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
-    
+
+    private void OnApplicationQuit()
+    {
+        mainCharacter.GetComponent<PlayerHealth>().SaveHealthValues();
+        //PlayerPref verilerinin kaydedildiği kısım burası olacak
+    }
 }

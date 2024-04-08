@@ -19,26 +19,17 @@ public class generalHealth : MonoBehaviour
     void Update()
     {
         LevelManage d = GameObject.Find("LevelManager").GetComponent<LevelManage>();
-      Debug.Log(PlayerPrefs.GetInt("genHeal") );
+        int health = player.GetComponent<PlayerHealth>().initialHealth;
+        for (int i = 0; i <= gameObject.transform.childCount-health-1; i++)
+        {
+            gameObject.transform.GetChild(i).gameObject.SetActive(false);
+        }
 
-        if (PlayerPrefs.GetInt("genHeal") == 3)
+        for (int j = health ; j > 0; j--)
         {
-            gameObject.transform.GetChild(2).gameObject.SetActive(true);
-            gameObject.transform.GetChild(1).gameObject.SetActive(true);
-            gameObject.transform.GetChild(0).gameObject.SetActive(true);
+            gameObject.transform.GetChild(j-1).gameObject.SetActive(true);
         }
-        if (PlayerPrefs.GetInt("genHeal") == 2)
-        {
-            gameObject.transform.GetChild(2).gameObject.SetActive(true);
-            gameObject.transform.GetChild(1).gameObject.SetActive(true);
-            gameObject.transform.GetChild(0).gameObject.SetActive(false);
-        }
-        if(PlayerPrefs.GetInt("genHeal") == 1) {
-            gameObject.transform.GetChild(2).gameObject.SetActive(true);
-            gameObject.transform.GetChild(1).gameObject.SetActive(false);
-            gameObject.transform.GetChild(0).gameObject.SetActive(false);
-        }
-        if(PlayerPrefs.GetInt("genHeal") == 0)
+        if(health == 0)
         {
             for(int i = 0;i<3;i++)
             {
@@ -48,11 +39,8 @@ public class generalHealth : MonoBehaviour
             d.dead = dead;
             player.GetComponent<PlayerHealth>().Invoke("endLevelShowUI", 0.5f);
             player.GetComponent<BasicMech>().enabled = false;
-           // backGroundMusic.GetComponent<AudioSource>().enabled = false;
-            PlayerPrefs.DeleteAll();
             Destroy(player,0.5f);
-            
-           healthBar.gameObject.SetActive(false);
+            healthBar.gameObject.SetActive(false);
         }
     }
 }

@@ -10,8 +10,10 @@ using UnityEngine.UIElements;
 
 public class PlayerHealth : MonoBehaviour
 {
+    [SerializeField] private float CharacterScale;
     // Start is called before the first frame update
-    
+    private Vector2 checkPointPos;
+    private Rigidbody2D playerRb;
     [SerializeField] private Light2D lt;
     [SerializeField] private GameObject[] hideObjects;
     [SerializeField] private LevelManage _levelManage;
@@ -31,11 +33,20 @@ public class PlayerHealth : MonoBehaviour
     bool takeDamaged;
      void Start()
      {
+         checkPointPos = transform.position;
+         playerRb = GetComponent<Rigidbody2D>();
          invicible = false;
+         if (PlayerPrefs.GetFloat("playerHealth") != maxHealth&&PlayerPrefs.GetFloat("playerHealth") != 0)
+         {
+             health = PlayerPrefs.GetFloat("playerHealth");
+         }
         if (PlayerPrefs.GetInt("generalHealth") == 0)
         {
-            PlayerPrefs.SetInt("generalHealth",initialHealth);
-            PlayerPrefs.SetInt("genHeal",initialHealth);
+            initialHealth = 3;
+        }
+        else
+        {
+            initialHealth = PlayerPrefs.GetInt("generalHealth");
         }
     rend=GetComponent<SpriteRenderer>();
     }
@@ -44,21 +55,15 @@ public class PlayerHealth : MonoBehaviour
        
         if(health <=0) {
            health = maxHealth;
-           PlayerPrefs.SetInt("generalHealth",PlayerPrefs.GetInt("generalHealth")-1);
+           initialHealth--;
         }
-      
-      Debug.Log("Mevcut can"+PlayerPrefs.GetInt("genHealth"));
-
-          PlayerPrefs.SetInt("genHeal", PlayerPrefs.GetInt("generalHealth"));
-        //PlayerPrefs.SetInt("genHeal", generalHealth);
-
         if (Input.GetKeyDown(KeyCode.P)&&bigPotion>0)
         {
             health += 40;
             if(health>100)
             {
                 health-=100;
-                PlayerPrefs.SetInt("generalHealth", PlayerPrefs.GetInt("generalHealth") + 1);
+                initialHealth++;
 
             }
             bigPotion--;
@@ -70,13 +75,14 @@ public class PlayerHealth : MonoBehaviour
             if (health > 100)
             {
                 health -= 100;
-                PlayerPrefs.SetInt("generalHealth", PlayerPrefs.GetInt("generalHealth") + 1);
+                initialHealth++;
             }
             smallPotion--;
         }
             
         if (p.passed)
         {
+            
          Invoke("DestroyObj", 1.5f);
          Invoke("endLevelShowUI", 2.74f);
         }
@@ -85,11 +91,11 @@ public class PlayerHealth : MonoBehaviour
             Invoke("endLevelShowUI", 1f);
         }
 
+        
         if (health > maxHealth)
         {
             health = maxHealth;
         }
-        PlayerPrefs.SetFloat("playerHealth", health);
     }
 
 
@@ -130,6 +136,23 @@ public class PlayerHealth : MonoBehaviour
         }
        
     }
+
+   public IEnumerator Respawn(float duration)
+    {
+        playerRb.velocity = Vector2.zero;
+        playerRb.simulated = false;
+        transform.localScale=Vector3.zero;
+        yield return new WaitForSeconds(duration);
+        transform.position = checkPointPos;
+        transform.localScale = new Vector3(CharacterScale, CharacterScale, 1);
+        playerRb.simulated = true;
+        gameObject.GetComponent<BasicMech>().Flip();
+    }
+
+    public void SetCheckPoint(Vector2 pos)
+    {
+        checkPointPos = pos;
+    }
     public void endLevelShowUI()
     {
        
@@ -163,6 +186,12 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
+    public void SaveHealthValues()
+    {
+        PlayerPrefs.SetFloat("playerHealth",health);
+        PlayerPrefs.SetInt("generalHealth",initialHealth);
+    }
+
     private void OnCollisionEnter2D(Collision2D other)
     {
         if (other.gameObject.CompareTag("Obstacle"))
@@ -187,17 +216,11 @@ public class PlayerHealth : MonoBehaviour
         health -= healthP;
         
     }
-    private void OnAnimatorMove()
-    {
-       
-       
-        
-    }
+
 
 public IEnumerator DecreaseGeneralHealth()
-    {
-        PlayerPrefs.SetInt("generalHealth",PlayerPrefs.GetInt("generalHealth")-1);
-        PlayerPrefs.SetInt("genHeal", PlayerPrefs.GetInt("generalHealth"));
+{
+        initialHealth--;
         invicible = true;
         StartCoroutine(LightOff(0.9f));
         yield return new WaitForSeconds(3f);
@@ -206,10 +229,7 @@ public IEnumerator DecreaseGeneralHealth()
         invicible = false;
     }
 
-    public void LoadCheckPoint()
-    {
-        
-    }
+   
 
  
 
