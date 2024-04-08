@@ -191,6 +191,7 @@ public class PlayerHealth : MonoBehaviour
     {
         PlayerPrefs.SetFloat("playerHealth",health);
         PlayerPrefs.SetInt("generalHealth",initialHealth);
+        PlayerPrefs.Save();
     }
 
     private void OnCollisionEnter2D(Collision2D other)

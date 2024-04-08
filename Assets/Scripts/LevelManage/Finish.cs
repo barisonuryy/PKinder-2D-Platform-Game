@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,17 +12,30 @@ public class Finish : MonoBehaviour
     {
         
     }
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player")&&collision.gameObject.name!="Legs")
         {
-          
+            UnlockNewLevel();
             mainCharacter.GetComponent<BasicMech>().enabled= false;
             mainCharacter.GetComponent<Animator>().enabled = false;
             passed= true;
+            
 
 
-            //SceneManager.LoadScene("SecondScene");
+           
+        }
+    }
+
+   
+
+    void UnlockNewLevel()
+    {
+        if (SceneManager.GetActiveScene().buildIndex >= PlayerPrefs.GetInt("ReachedIndex"))
+        {
+            PlayerPrefs.SetInt("ReachIndex",SceneManager.GetActiveScene().buildIndex+1);
+            PlayerPrefs.SetInt("UnlockedLevel",PlayerPrefs.GetInt("UnlockedLevel",1)+1);
+            PlayerPrefs.Save();
         }
     }
 
