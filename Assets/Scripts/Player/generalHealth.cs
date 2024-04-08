@@ -29,7 +29,7 @@ public class generalHealth : MonoBehaviour
         {
             gameObject.transform.GetChild(j-1).gameObject.SetActive(true);
         }
-        if(health == 0)
+        if(health <= 0)
         {
             for(int i = 0;i<3;i++)
             {

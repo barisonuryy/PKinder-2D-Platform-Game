@@ -19,9 +19,8 @@ public class PlayerHealth : MonoBehaviour
     [SerializeField] private LevelManage _levelManage;
     private bool invicible;
     public Finish p;
-    public float speed;
-      public float health = 100;
-     public  float maxHealth = 100;
+    public float health = 100; 
+    public  float maxHealth = 100;
     public int initialHealth = 3;
     int bigPotion = 3;
     int smallPotion = 3;
@@ -29,8 +28,9 @@ public class PlayerHealth : MonoBehaviour
     private SpriteRenderer rend;
     public GameObject endLevelUI;
    GameObject endLevelStars;
+   private bool takeDamaged;
    private SpriteRenderer backgroundSprite;
-    bool takeDamaged;
+
      void Start()
      {
          checkPointPos = transform.position;
@@ -40,7 +40,7 @@ public class PlayerHealth : MonoBehaviour
          {
              health = PlayerPrefs.GetFloat("playerHealth");
          }
-        if (PlayerPrefs.GetInt("generalHealth") == 0)
+        if (PlayerPrefs.GetInt("generalHealth") <= 0)
         {
             initialHealth = 3;
         }
@@ -53,9 +53,10 @@ public class PlayerHealth : MonoBehaviour
     void Update()
     {
        
+       
         if(health <=0) {
            health = maxHealth;
-           initialHealth--;
+           //initialHealth--;
         }
         if (Input.GetKeyDown(KeyCode.P)&&bigPotion>0)
         {
@@ -138,7 +139,7 @@ public class PlayerHealth : MonoBehaviour
     }
 
    public IEnumerator Respawn(float duration)
-    {
+   {
         playerRb.velocity = Vector2.zero;
         playerRb.simulated = false;
         transform.localScale=Vector3.zero;
@@ -146,8 +147,8 @@ public class PlayerHealth : MonoBehaviour
         transform.position = checkPointPos;
         transform.localScale = new Vector3(CharacterScale, CharacterScale, 1);
         playerRb.simulated = true;
-        gameObject.GetComponent<BasicMech>().Flip();
-    }
+         gameObject.GetComponent<BasicMech>().SetRespawnFlip();
+   }
 
     public void SetCheckPoint(Vector2 pos)
     {
@@ -203,7 +204,10 @@ public class PlayerHealth : MonoBehaviour
             TakeDamage(3);
             Destroy(other.gameObject);
         }
+    
+        
     }
+
 
     public void TakeDamageP(bool isPunched)
     {
@@ -218,16 +222,16 @@ public class PlayerHealth : MonoBehaviour
     }
 
 
-public IEnumerator DecreaseGeneralHealth()
+public void DecreaseGeneralHealth()
 {
         initialHealth--;
-        invicible = true;
+        /*invicible = true;
         StartCoroutine(LightOff(0.9f));
         yield return new WaitForSeconds(3f);
         StartCoroutine(LightOn(0.9f));
         yield return new WaitForSeconds(3f);
-        invicible = false;
-    }
+        invicible = false;*/
+}
 
    
 

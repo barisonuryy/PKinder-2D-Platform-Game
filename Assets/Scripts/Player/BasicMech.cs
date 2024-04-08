@@ -36,6 +36,7 @@ public class BasicMech : MonoBehaviour
     [SerializeField] private Transform attackPos;
     [SerializeField] private BoxCollider2D[] _boxCollider2DEnemies;
     private float timerJump;
+    private bool isRotate;
     private void Awake()
     {
         timerJump = 0;
@@ -53,6 +54,7 @@ public class BasicMech : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         dashControl = false;
         if(isDashing)
         {
@@ -103,14 +105,30 @@ public class BasicMech : MonoBehaviour
     }
   public  void Flip()
     {
-        if(!isFacingRight&&directionX>0f||isFacingRight&&directionX<0f) {
-            isFacingRight = !isFacingRight;
+        if((!isFacingRight&&directionX>0f||isFacingRight&&directionX<0f)) {
+                isFacingRight = !isFacingRight;
+                Vector3 localScale= transform.localScale;
+                localScale.x *= -1f;
+                dirSlide = localScale.x;
+                transform.localScale = localScale;
+            }
+           
+
+           
+        
+    
+        
+    }
+
+    public void SetRespawnFlip()
+    {
+        if (!isFacingRight&&directionX<=0)
+        {
             Vector3 localScale= transform.localScale;
             localScale.x *= -1f;
             dirSlide = localScale.x;
             transform.localScale = localScale;
-          }
-        
+        }
     }
      void Attack()
     {

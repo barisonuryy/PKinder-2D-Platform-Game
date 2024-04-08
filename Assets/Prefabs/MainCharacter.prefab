@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 7840881194665168668}
   - component: {fileID: 7840881194665168669}
   - component: {fileID: 8842549224039769504}
-  m_Layer: 3
+  m_Layer: 7
   m_Name: MainCharacter
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -312,7 +312,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6adf4968ed9867f45b3f9a921737a096, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CharacterScale: 0
   lt: {fileID: 0}
+  hideObjects: []
+  _levelManage: {fileID: 0}
   p: {fileID: 0}
   speed: 7
   health: 15

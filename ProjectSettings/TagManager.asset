@@ -12,6 +12,9 @@ TagManager:
   - Archer
   - Arrow
   - Snowball
+  - Bullet
+  - Level
+  - Threshold
   layers:
   - Default
   - TransparentFX

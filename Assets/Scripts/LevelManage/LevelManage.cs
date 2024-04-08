@@ -67,17 +67,7 @@ public class LevelManage : MonoBehaviour
     }
 
 
-
-
-    private void OnTriggerStay2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Player"))
-        {
-            StartCoroutine(mainCharacter.GetComponent<PlayerHealth>().DecreaseGeneralHealth());
-            StartCoroutine(mainCharacter.GetComponent<PlayerHealth>().Respawn(0.5f));
-        }
-      
-    }
+   
 
     private void showScore(int score)
     {
@@ -138,5 +128,13 @@ public class LevelManage : MonoBehaviour
     {
         mainCharacter.GetComponent<PlayerHealth>().SaveHealthValues();
         //PlayerPref verilerinin kaydedildiği kısım burası olacak
+    }
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player")&&other.gameObject.name!="Legs")
+        {
+            mainCharacter.GetComponent<PlayerHealth>().DecreaseGeneralHealth();
+            StartCoroutine(mainCharacter.GetComponent<PlayerHealth>().Respawn(0.5f)); 
+        }
     }
 }
