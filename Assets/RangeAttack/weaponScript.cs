@@ -33,16 +33,19 @@ public class weaponScript : MonoBehaviour
     private bool isThrowed;
     private Animator parentAnim;
     [SerializeField] private AnimationClip _animationClip;
-
+    public bool isPressedThrowButton;
     [SerializeField] private LayerMask platformLayerMask;
     bool canChange;
- 
+    public bool canShoot;
+    [SerializeField] private ButtonManage bMnage;
+    private bool isPcc;
     private void Awake()
     {
         
     }
     void Start()
     {
+        isPcc = bMnage.isPc;
         parentAnim = GetComponentInParent<Animator>();
         isReloaded = true;
         canChange = true;
@@ -103,42 +106,95 @@ public class weaponScript : MonoBehaviour
             }
         }
 
-        if (Input.GetMouseButton(0))
+        if (!isPcc)
         {
-            for (int i = 0; i < numberofPoints; i++)
+            if (isPressedThrowButton)
             {
-                points[i].SetActive(true);
+                for (int i = 0; i < numberofPoints; i++)
+                {
+                    points[i].SetActive(true);
+                }
+
+            
             }
+            else
+            {
+                for (int i = 0; i < numberofPoints; i++)
+                {
+                    points[i].SetActive(false);
+                }
+            }
+
         }
         else
         {
-            for (int i = 0; i < numberofPoints; i++)
+            if (Input.GetMouseButton(0))
             {
-                points[i].SetActive(false);
+                for (int i = 0; i < numberofPoints; i++)
+                {
+                    points[i].SetActive(true);
+                }
+
+            
+            }
+            else
+            {
+                for (int i = 0; i < numberofPoints; i++)
+                {
+                    points[i].SetActive(false);
+                }
             }
         }
 
-        if (Input.GetMouseButtonUp(0) && isShoot && Time.time > weapTime && haveAmmo)
+        if (!isPcc)
         {
- 
-            weapTime = Time.time + coolDownWeap;
-            StartCoroutine(Shoot());
-            parentAnim.SetBool("canThrow",true);
-            ammoCounter--;
-           
-            if (ammoCounter <= 0&&isReloaded)
+            if (canShoot && isShoot && Time.time > weapTime && haveAmmo)
             {
-                haveAmmo = false;
-                isReloaded = false;
-                isThrowed = false;
-                StartCoroutine(reloadAmmo(0));
-            }
+                canShoot = false;
+                weapTime = Time.time + coolDownWeap;
+                StartCoroutine(Shoot());
+                parentAnim.SetBool("canThrow",true);
+                ammoCounter--;
+           
+                if (ammoCounter <= 0&&isReloaded)
+                {
+                    haveAmmo = false;
+                    isReloaded = false;
+                    isThrowed = false;
+                    StartCoroutine(reloadAmmo(0));
+                }
 
         
+            }
+            else
+            {
+                parentAnim.SetBool("canThrow",false);
+            }
         }
         else
         {
-            parentAnim.SetBool("canThrow",false);
+            if (Input.GetMouseButtonUp(0) && isShoot && Time.time > weapTime && haveAmmo)
+            {
+                canShoot = false;
+                weapTime = Time.time + coolDownWeap;
+                StartCoroutine(Shoot());
+                parentAnim.SetBool("canThrow",true);
+                ammoCounter--;
+           
+                if (ammoCounter <= 0&&isReloaded)
+                {
+                    haveAmmo = false;
+                    isReloaded = false;
+                    isThrowed = false;
+                    StartCoroutine(reloadAmmo(0));
+                }
+
+        
+            }
+            else
+            {
+                parentAnim.SetBool("canThrow",false);
+            }
         }
 
 

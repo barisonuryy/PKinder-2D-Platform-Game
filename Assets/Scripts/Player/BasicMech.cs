@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using Unity.Mathematics;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.Rendering;
 
 public class BasicMech : MonoBehaviour
@@ -35,8 +36,10 @@ public class BasicMech : MonoBehaviour
     private float totalDurationA;
     [SerializeField] private Transform attackPos;
     [SerializeField] private BoxCollider2D[] _boxCollider2DEnemies;
+     [SerializeField] private InputActionReference moveValue;
     private float timerJump;
     private bool isRotate;
+    public bool isPressedDashB,isPressedAttackButton;
     private void Awake()
     {
         timerJump = 0;
@@ -71,7 +74,8 @@ public class BasicMech : MonoBehaviour
     void Movement()
     {
 
-        directionX= Input.GetAxis("Horizontal");
+        directionX= moveValue.action.ReadValue<Vector2>().x;
+        
   
         if (directionX!=0)
         {
@@ -83,14 +87,16 @@ public class BasicMech : MonoBehaviour
    
     void Jump(bool isGrounded)
     {
-        if (isGrounded && Input.GetButtonUp("Vertical")&&jumpCount<=2)
+        if (isGrounded &&  moveValue.action.ReadValue<Vector2>().y>=0.5f&&jumpCount<=2)
         {
             jumpCount++;
             jump = true;
-            directionY = Input.GetAxis("Vertical");
+            directionY = moveValue.action.ReadValue<Vector2>().y;
             rb.velocity = new Vector2(rb.velocity.x, verticalS);
            
         }
+
+        
         else
         {
             if (timerJump < Time.time)
@@ -101,6 +107,7 @@ public class BasicMech : MonoBehaviour
             
             jump = false;
         }
+        Debug.Log("Y DEĞER" + moveValue.action.ReadValue<Vector2>().y);
            
     }
   public  void Flip()
@@ -133,10 +140,11 @@ public class BasicMech : MonoBehaviour
      void Attack()
     {
 
-            if (Input.GetButton("Attack")&& Time.time > totalDurationA)
+            if (Input.GetButton("Attack")&& Time.time > totalDurationA||isPressedAttackButton&&Time.time > totalDurationA)
             {
             totalDurationA = Time.time + cooldownAttack;
                 attack = true;
+                isPressedAttackButton = false;
               
                 Collider2D[] enemiesToDamage = Physics2D.OverlapBoxAll(attackPos.position, new Vector2(attackRangeX, attackRangeY), 0);
                 
@@ -217,7 +225,7 @@ public class BasicMech : MonoBehaviour
             return;
         }
     
-        rb.velocity = new Vector2(directionX * horizontalS, rb.velocity.y);
+        rb.velocity = new Vector2(directionX*Time.deltaTime * horizontalS, rb.velocity.y);
         
     }
     private void OnAnimatorMove()
@@ -234,9 +242,10 @@ public class BasicMech : MonoBehaviour
     }
     void SlideE()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && canDash||isPressedDashB&&canDash)
         {
             slide = true;
+            isPressedDashB = false;
             StartCoroutine(Slide());
 
         }

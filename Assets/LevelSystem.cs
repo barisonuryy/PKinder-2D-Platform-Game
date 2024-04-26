@@ -16,7 +16,7 @@ public class LevelSystem : MonoBehaviour
         {
             buttons[i].interactable = false;
         }
-
+Debug.Log(unlockedLevel);
         for (int i = 0; i < unlockedLevel; i++)
         {
             buttons[i].interactable = true;

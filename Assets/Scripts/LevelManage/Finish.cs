@@ -31,9 +31,10 @@ public class Finish : MonoBehaviour
 
     void UnlockNewLevel()
     {
+        
         if (SceneManager.GetActiveScene().buildIndex >= PlayerPrefs.GetInt("ReachedIndex"))
         {
-            PlayerPrefs.SetInt("ReachIndex",SceneManager.GetActiveScene().buildIndex+1);
+            PlayerPrefs.SetInt("ReachedIndex",SceneManager.GetActiveScene().buildIndex+1);
             PlayerPrefs.SetInt("UnlockedLevel",PlayerPrefs.GetInt("UnlockedLevel",1)+1);
             PlayerPrefs.Save();
         }
