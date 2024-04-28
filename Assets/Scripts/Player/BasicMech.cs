@@ -6,12 +6,13 @@ using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering;
+using UnityEngine.Tilemaps;
 
 public class BasicMech : MonoBehaviour
 {
     // Start is called before the first frame update
     public float dirSlide;
-    float directionX,directionY;
+    private float directionX;
     Rigidbody2D rb;
     Vector2 movement;
     public bool move,jump,slide;
@@ -38,7 +39,11 @@ public class BasicMech : MonoBehaviour
     [SerializeField] private BoxCollider2D[] _boxCollider2DEnemies;
      [SerializeField] private InputActionReference moveValue;
     private float timerJump;
-    private bool isRotate;
+    private bool isRotate,canHold;
+    private bool IsWallSliding;
+    [SerializeField] float wallSlidingSpeed;
+    [SerializeField] private LayerMask wallLayer;
+    private ContactPoint2D _contactPoint2D;
     public bool isPressedDashB,isPressedAttackButton;
     private void Awake()
     {
@@ -77,21 +82,26 @@ public class BasicMech : MonoBehaviour
         directionX= moveValue.action.ReadValue<Vector2>().x;
         
   
-        if (directionX!=0)
+        if (directionX!=0&&!isWalled())
         {
             move =true;
         }
         else move=false;
      }
     // ReSharper disable Unity.PerformanceAnalysis
-   
+    private bool isWalled()
+    {
+        return Physics2D.OverlapCircle(bc2d.bounds.center, 0.4f, wallLayer);
+        
+    }
+
+
     void Jump(bool isGrounded)
     {
         if (isGrounded &&  moveValue.action.ReadValue<Vector2>().y>=0.5f&&jumpCount<=2)
         {
             jumpCount++;
             jump = true;
-            directionY = moveValue.action.ReadValue<Vector2>().y;
             rb.velocity = new Vector2(rb.velocity.x, verticalS);
            
         }
@@ -107,6 +117,20 @@ public class BasicMech : MonoBehaviour
             
             jump = false;
         }
+      
+        float jumpDirection = _contactPoint2D.point.x - gameObject.transform.position.x;
+        if (canHold && moveValue.action.ReadValue<Vector2>().y>=0.5f&&((jumpDirection>0&&directionX<0)||(jumpDirection<0&&directionX>0))&&isWalled())
+        {
+            jump = true;
+            rb.velocity = new Vector2(rb.velocity.x, verticalS);
+        }
+
+        if (canHold&&((jumpDirection > 0 && directionX > 0) || (jumpDirection < 0 && directionX < 0))&&isWalled()&&moveValue.action.ReadValue<Vector2>().y>=0.5f)
+        {
+            directionX = 0;
+            rb.velocity = new Vector2(rb.velocity.x, verticalS/2);
+        }
+   
         Debug.Log("Y DEĞER" + moveValue.action.ReadValue<Vector2>().y);
            
     }
@@ -214,6 +238,8 @@ public class BasicMech : MonoBehaviour
         float extraHeight = 2.5f;
         RaycastHit2D raycastHit = Physics2D.BoxCast(bc2d.bounds.center, bc2d.bounds.size, 0f, Vector2.down, extraHeight, platformLayerMask);
         Vector3.Angle(Vector2.up,rb.velocity);
+        
+        
 
         return raycastHit.collider!=null;
     }
@@ -235,11 +261,7 @@ public class BasicMech : MonoBehaviour
         animator.SetBool("isJump", jump);
         animator.SetBool("canSlide", slide);
     }
-    private void OnDrawGizmos()
-    {
-
-        
-    }
+ 
     void SlideE()
     {
         if (Input.GetKeyDown(KeyCode.LeftShift) && canDash||isPressedDashB&&canDash)
@@ -253,9 +275,47 @@ public class BasicMech : MonoBehaviour
         
     }
 
-   
+    private void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("WallJump"))
+        {
+            _contactPoint2D = other.GetContact(0);
+            
+            float jumpDirectionY = _contactPoint2D.point.y - gameObject.transform.GetChild(2).position.y;
+            Debug.Log("Objenin koordinatı"+jumpDirectionY);
+            canHold = true;
+            
+        }
+    }
 
+    private void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("WallJump"))
+        {
+            canHold = false;
+            
+        }
+    }
 
+    private void OnCollisionStay2D(Collision2D other)
+    {
+        if (other.gameObject.CompareTag("WallJump")&&directionX==0)
+        {
+            
+            wallSlide();
+        }
+    }
+
+    void wallSlide()
+    {
+        rb.velocity = new Vector2(rb.velocity.x, Mathf.Clamp(rb.velocity.y, -wallSlidingSpeed, float.MaxValue));
+    }
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color=Color.magenta;
+        Gizmos.DrawWireSphere(bc2d.bounds.center, 0.4f);
+    }
 }
    
     
