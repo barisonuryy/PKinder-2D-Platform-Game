@@ -7,8 +7,12 @@
     <list default="true" id="6cca5d80-71f3-4793-a64a-9afe45756df4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Design2DProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Design2DProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/BasicMech.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/BasicMech.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TestAnim/1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestAnim/1.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TestAnim/Dash/Dash.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestAnim/Dash/Dash.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TestAnim/Dash/Throw.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestAnim/Dash/Throw.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WallJump.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/WallJump.cs.meta" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +127,12 @@
       <workItem from="1713853844299" duration="596000" />
       <workItem from="1714159170648" duration="1720000" />
       <workItem from="1714282348371" duration="13926000" />
+      <workItem from="1714331864100" duration="984000" />
+      <workItem from="1714332874693" duration="667000" />
+      <workItem from="1714392363534" duration="563000" />
+      <workItem from="1714392946893" duration="17462000" />
+      <workItem from="1714424782693" duration="4769000" />
+      <workItem from="1714458053343" duration="13954000" />
     </task>
     <servers />
   </component>
