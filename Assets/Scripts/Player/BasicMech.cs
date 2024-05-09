@@ -45,6 +45,9 @@ public class BasicMech : MonoBehaviour
     [SerializeField] private LayerMask wallLayer;
     private ContactPoint2D _contactPoint2D;
     public bool isPressedDashB,isPressedAttackButton;
+    private bool canUseBoost;
+    [SerializeField] private float velocityBooster;
+    private float tempVBooster;
     private void Awake()
     {
         timerJump = 0;
@@ -54,6 +57,7 @@ public class BasicMech : MonoBehaviour
     }
     void Start()
     {
+        tempVBooster = velocityBooster;
         totalDurationA = 0;
         animator =GetComponent<Animator>();
        
@@ -189,6 +193,10 @@ public class BasicMech : MonoBehaviour
                     {
                         enemy.GetComponentInParent<GoblinHealth>().TakeDamageGoblin(10);
                     }
+                    if (enemy.gameObject.CompareTag("LaserEnemy"))
+                    {
+                        Destroy(enemy.gameObject);
+                    }
                   
 
                 }
@@ -250,6 +258,17 @@ public class BasicMech : MonoBehaviour
         {
             return;
         }
+        if(GetComponent<effectofObject>()!=null)
+            canUseBoost = GetComponent<effectofObject>().inRope;
+        if (canUseBoost)
+        {
+            velocityBooster = tempVBooster;
+        }
+        else
+        {
+            velocityBooster = 1;
+        }
+        rb.velocity = new Vector2(directionX * horizontalS*velocityBooster, rb.velocity.y);
     
         rb.velocity = new Vector2(directionX*Time.deltaTime * horizontalS, rb.velocity.y);
         

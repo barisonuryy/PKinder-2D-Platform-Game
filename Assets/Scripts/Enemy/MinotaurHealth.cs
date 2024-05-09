@@ -8,9 +8,9 @@ public class MinotaurHealth : MonoBehaviour
 {
     public float MinoHealth = 100f;
     public float MinoMaxHealth = 100f;
-    [SerializeField] GameObject smoke,score;
+    [SerializeField] GameObject smoke;
     private bool isDead;
-    [SerializeField] private LevelManage _levelManage;
+    [SerializeField] ParticleSystem prt;
     private bool canContAttack;
     private Animator anim;
     // Start is called before the first frame update
@@ -24,7 +24,7 @@ public class MinotaurHealth : MonoBehaviour
 
     private void Update()
     {
-        if(GetComponentInChildren<MinoHealthUI>()!=null)
+        
         GetComponentInChildren<MinoHealthUI>().setHealthUI(MinoHealth,MinoMaxHealth);
         canContAttack = GetComponent<meleeAttack>().continueAttack;
     
@@ -52,8 +52,6 @@ public class MinotaurHealth : MonoBehaviour
     {
         smoke.SetActive(true);
         smoke.transform.position=transform.root.position;
-        _levelManage.score += 50;
-        score.GetComponent<Animator>().SetBool("scoreIncrease",true);
     }
 
     public void IncreaseHealth(float incHealth)
@@ -61,27 +59,17 @@ public class MinotaurHealth : MonoBehaviour
         if (MinoHealth < MinoMaxHealth)
         {
             MinoHealth += (incHealth / MinoMaxHealth) * 100;
-            //setParticleState();
+            setParticleState();
         }
         else
             MinoHealth = MinoMaxHealth;
         
 
     }
-
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Snowball"))
-        {
-            TakeDamageMinotaur(5);
-            Destroy(other.gameObject);
-        }
-    }
-
-    /*async void setParticleState()
+    async void setParticleState()
     {
         prt.Play();
         await Task.Delay(1500);
         prt.Stop();
-    }*/
+    }
 }

@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -9,12 +8,11 @@ public class GoblinHealth : MonoBehaviour
     // Start is called before the first frame update
     public float goblinHealth = 100f;
     public float goblinMaxHealth = 100f;
-    [SerializeField] GameObject smoke,score;
+    [SerializeField] GameObject smoke;
     private bool isDead;
-    [SerializeField] private LevelManage _levelManage;
-   
+    [SerializeField] private int objIndex;
     
-  
+    [SerializeField] ParticleSystem prt;
 
     private Animator anim;
     // Start is called before the first frame update
@@ -50,16 +48,13 @@ public class GoblinHealth : MonoBehaviour
     {
         smoke.SetActive(true);
         smoke.transform.position=transform.root.position;
-        _levelManage.score += 50;
-        score.GetComponent<Animator>().SetBool("scoreIncrease",true);
-        
     }
     public void IncreaseHealth(float incHealth)
     {
         if (goblinHealth < goblinMaxHealth)
         {
             goblinHealth += (incHealth / goblinMaxHealth) * 100;
-           // setParticleState();
+            setParticleState();
         }
         else
             goblinHealth = goblinMaxHealth;
@@ -67,19 +62,10 @@ public class GoblinHealth : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if (other.gameObject.CompareTag("Snowball"))
-        {
-            TakeDamageGoblin(10);
-            Destroy(other.gameObject);
-        }
-    }
-
-   /* async void setParticleState()
+    async void setParticleState()
     {
         prt.Play();
         await Task.Delay(1500);
         prt.Stop();
-    }*/
+    }
 }

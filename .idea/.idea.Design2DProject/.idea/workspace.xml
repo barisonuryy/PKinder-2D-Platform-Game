@@ -6,13 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="6cca5d80-71f3-4793-a64a-9afe45756df4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Design2DProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Design2DProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/All assets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/All assets/Sheets.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/All assets/Sheets/death trap asset sheet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/All assets/Sheets/death trap asset sheet.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/TextMesh Pro/Examples &amp; Extras/Resources/Fonts &amp; Materials/Bangers SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PortalsSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PortalsSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Goblin/GoblinHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Goblin/GoblinHealth.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestAnim/1.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestAnim/1.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestAnim/Dash/Dash.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestAnim/Dash/Dash.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TestAnim/Dash/Throw.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TestAnim/Dash/Throw.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WallJump.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/WallJump.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyDeath.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/EnemyDeath.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemy/MinotaurHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemy/MinotaurHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/BasicMech.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/BasicMech.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +30,10 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/CheckPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LaserBulletMech.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/effectofObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SFX.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ThresholdControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/trapMech.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
@@ -133,6 +141,11 @@
       <workItem from="1714392946893" duration="17462000" />
       <workItem from="1714424782693" duration="4769000" />
       <workItem from="1714458053343" duration="13954000" />
+      <workItem from="1714562499049" duration="6280000" />
+      <workItem from="1714637474181" duration="6520000" />
+      <workItem from="1714815504013" duration="3360000" />
+      <workItem from="1715190531433" duration="1188000" />
+      <workItem from="1715247828575" duration="1435000" />
     </task>
     <servers />
   </component>

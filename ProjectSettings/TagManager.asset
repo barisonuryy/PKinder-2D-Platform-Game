@@ -16,6 +16,8 @@ TagManager:
   - Level
   - Threshold
   - WallJump
+  - LaserEnemy
+  - Portal
   layers:
   - Default
   - TransparentFX

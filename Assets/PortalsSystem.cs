@@ -21,6 +21,8 @@ public class PortalsSystem : MonoBehaviour
     private bool isTouch;
 
     private bool isClicked;
+
+    public bool playerIsIn;
     // Start is called before the first frame update
     void Start()
     {
@@ -45,7 +47,7 @@ public class PortalsSystem : MonoBehaviour
         StartCoroutine(producePortal());
         isTouch=Physics2D.OverlapBox(portalA.transform.position, new Vector3(triggerSizeX, triggerSizeY, 1),
             portalA.transform.rotation.z,layerMaskToCheck);
-        isIn = Physics2D.OverlapCircle(portalA.transform.position - new Vector3(0.1f, 0, 0), 0.9f, layerMaskToCheck);
+        isIn = Physics2D.OverlapCircle(portalA.transform.position - new Vector3(0.1f, 0, 0), 1.5F, layerMaskToCheck);
         
         if (isTouch&&isClicked)
         {
@@ -62,13 +64,14 @@ public class PortalsSystem : MonoBehaviour
             _lineRenderer1.SetActive(false);
         }
 
-        if (Input.GetMouseButtonUp(1)&&isClicked)
+        if (Input.GetMouseButtonUp(1)&&isClicked&&isIn)
         {
             isClicked = false;
             distance = -(_lineRenderer.GetComponent<LineRenderer>().GetPosition(1)-_lineRenderer.GetComponent<LineRenderer>().GetPosition(0));
             tempDistance = distance;
           
             rbCharacter.GetComponent<Rigidbody2D>().velocity = distance * speedXY;
+            portalA.SetActive(false);
           
             if (isIn)
             {
@@ -127,7 +130,7 @@ public class PortalsSystem : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(portalA.transform.position,new Vector3(triggerSizeX,triggerSizeY,1));
         Gizmos.color = Color.green;
-        Gizmos.DrawWireSphere(portalA.transform.position-new Vector3(0.1f,0,0),0.9f);
+        Gizmos.DrawWireSphere(portalA.transform.position-new Vector3(0.1f,0,0),1.5f);
     }
 
     void ThrowCharacter()
@@ -146,5 +149,21 @@ public class PortalsSystem : MonoBehaviour
     {
         rbCharacter.GetComponent<BasicMech>().enabled = true;
         rbCharacter.GetComponent<Rigidbody2D>().gravityScale = gravityVal;
+    }
+
+    private void OnTriggerExit2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            playerIsIn = false;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Player"))
+        {
+            playerIsIn = true;
+        }
     }
 }

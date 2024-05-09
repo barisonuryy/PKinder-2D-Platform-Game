@@ -18,8 +18,12 @@ public class EnemyDeath : MonoBehaviour
     {
         if (collision.collider.CompareTag("Player"))
         {
-            smoke.SetActive(true);
-            smoke.transform.position=cat.transform.position;
+            if (smoke != null)
+            {
+                smoke.SetActive(true);
+                smoke.transform.position=cat.transform.position;
+            }
+            
             Destroy(cat);
       
         }
@@ -27,8 +31,12 @@ public class EnemyDeath : MonoBehaviour
 
     private void OnDestroy()
     {
-        _levelManage.score += 50;
-        score.GetComponent<Animator>().SetBool("scoreIncrease",true);
+        if (_levelManage != null)
+        {
+            _levelManage.score += 50;
+            score.GetComponent<Animator>().SetBool("scoreIncrease",true);
+        }
+      
 
 
 
