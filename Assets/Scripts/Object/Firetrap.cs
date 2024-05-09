@@ -11,8 +11,8 @@ public class Firetrap : MonoBehaviour
     private Animator anim;
     private SpriteRenderer spriteRend;
 
-    private bool triggered; 
-    private bool active; 
+    [SerializeField] bool triggered; 
+    [SerializeField] bool active; 
 
     private void Awake()
     {
