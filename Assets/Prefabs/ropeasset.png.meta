@@ -484,12 +484,12 @@ TextureImporter:
       name: ropeasset_1
       rect:
         serializedVersion: 2
-        x: 518
+        x: 513
         y: 0
         width: 119
         height: 4510
-      alignment: 9
-      pivot: {x: 0.5435037, y: 0.015610634}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

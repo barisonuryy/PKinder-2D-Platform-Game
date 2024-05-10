@@ -8,25 +8,11 @@ public class RopeMechanic : MonoBehaviour
     [SerializeField] private float scaleSpeed;
     // Start is called before the first frame update
     
-    void Start()
-    {
-        
-    }
+// Büyüme hızı
 
-    // Update is called once per frame
     void Update()
     {
-        
-    }
-
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("Player"))
-        {
-            if (Input.GetAxis("Horizontal") < 0)
-            {
-                gameObject.transform.lossyScale
-            }
-        }
+        // X ekseni boyunca büyütme
+        transform.localScale += new Vector3(scaleSpeed, 0, 0) * Time.deltaTime;
     }
 }

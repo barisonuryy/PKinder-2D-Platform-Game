@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 4350443}
   m_Layer: 0
   m_Name: bone_20
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -154,7 +154,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -230,7 +230,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.6306027, y: -0.007965407}
+  m_ConnectedAnchor: {x: 0.6304409, y: 0.06950409}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -268,7 +268,7 @@ GameObject:
   - component: {fileID: 13435479}
   m_Layer: 0
   m_Name: bone_47
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -285,7 +285,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -361,7 +361,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.6800837, y: 0.0038542878}
+  m_ConnectedAnchor: {x: 0.6801221, y: -0.033719666}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1054,7 +1054,7 @@ GameObject:
   - component: {fileID: 58493567}
   m_Layer: 0
   m_Name: bone_7
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1071,7 +1071,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -1147,7 +1147,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.5555359, y: 0.0045215366}
+  m_ConnectedAnchor: {x: 0.5555506, y: -0.03949386}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1316,7 +1316,7 @@ GameObject:
   - component: {fileID: 62237707}
   m_Layer: 0
   m_Name: bone_12
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1333,7 +1333,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -1409,7 +1409,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.5767002, y: -0.001268124}
+  m_ConnectedAnchor: {x: 0.57664734, y: 0.011095957}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -1971,7 +1971,7 @@ GameObject:
   - component: {fileID: 104852793}
   m_Layer: 0
   m_Name: bone_31
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1988,7 +1988,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -2064,7 +2064,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.63100594, y: -0.015951399}
+  m_ConnectedAnchor: {x: 0.63113105, y: 0.13774177}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -2102,7 +2102,7 @@ GameObject:
   - component: {fileID: 107728485}
   m_Layer: 0
   m_Name: bone_44
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2119,7 +2119,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -2195,7 +2195,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.7311093, y: 0.009249415}
+  m_ConnectedAnchor: {x: 0.73092777, y: -0.08066855}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -2364,7 +2364,7 @@ GameObject:
   - component: {fileID: 145997139}
   m_Layer: 0
   m_Name: bone_33
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2381,7 +2381,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -2457,7 +2457,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.5625746, y: 0.01133474}
+  m_ConnectedAnchor: {x: 0.56258345, y: -0.098297454}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -4038,7 +4038,7 @@ GameObject:
   - component: {fileID: 200828981}
   m_Layer: 0
   m_Name: bone_69
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4055,7 +4055,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -4131,7 +4131,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.4943155, y: -0.007977158}
+  m_ConnectedAnchor: {x: 0.49425554, y: 0.069423586}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -4300,7 +4300,7 @@ GameObject:
   - component: {fileID: 216890891}
   m_Layer: 0
   m_Name: bone_16
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4317,7 +4317,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -4393,7 +4393,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.6992354, y: 0.015953872}
+  m_ConnectedAnchor: {x: 0.69916606, y: -0.13809869}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -4579,7 +4579,7 @@ GameObject:
   - component: {fileID: 231263461}
   m_Layer: 0
   m_Name: bone_11
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4596,7 +4596,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -4672,7 +4672,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.68462193, y: -0.013077872}
+  m_ConnectedAnchor: {x: 0.6847259, y: 0.11352087}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -4710,7 +4710,7 @@ GameObject:
   - component: {fileID: 234460475}
   m_Layer: 0
   m_Name: bone_56
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4727,7 +4727,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -4803,7 +4803,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.5583474, y: -0.0024772664}
+  m_ConnectedAnchor: {x: 0.55819124, y: 0.0216914}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -5954,7 +5954,7 @@ GameObject:
   - component: {fileID: 274417091}
   m_Layer: 0
   m_Name: bone_66
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5971,7 +5971,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -6047,7 +6047,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.6687086, y: 0.011411856}
+  m_ConnectedAnchor: {x: 0.6686615, y: -0.09925328}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -10654,6 +10654,36 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 46, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 47, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 48, y: -2, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 49, y: -2, z: 0}
     second:
       serializedVersion: 2
@@ -13756,21 +13786,21 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 743
+  - m_RefCount: 746
     m_Data: {fileID: 11400000, guid: afb7fc56e2be2ff4ab343e6cc5801c37, type: 2}
   - m_RefCount: 3
     m_Data: {fileID: 11400000, guid: f2ee852730243464a9b5195c6c56d121, type: 2}
   - m_RefCount: 0
     m_Data: {fileID: 0}
   m_TileSpriteArray:
-  - m_RefCount: 743
+  - m_RefCount: 746
     m_Data: {fileID: 21300000, guid: 2315d09f9f32d8c4daadda9831949757, type: 3}
   - m_RefCount: 3
     m_Data: {fileID: 21300000, guid: 7ebefa35d2fd37a44b4eaddf9b2bff3d, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
   m_TileMatrixArray:
-  - m_RefCount: 746
+  - m_RefCount: 749
     m_Data:
       e00: 1
       e01: 0
@@ -13789,7 +13819,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 746
+  - m_RefCount: 749
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -14188,7 +14218,7 @@ GameObject:
   - component: {fileID: 314697530}
   m_Layer: 0
   m_Name: bone_54
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14205,7 +14235,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -14281,7 +14311,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.55707306, y: 0.0067445277}
+  m_ConnectedAnchor: {x: 0.5570606, y: -0.05877476}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -14305,171 +14335,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 384561090}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!43 &322924078
-Mesh:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: WaterMesh
-  serializedVersion: 11
-  m_SubMeshes:
-  - serializedVersion: 2
-    firstByte: 0
-    indexCount: 114
-    topology: 0
-    baseVertex: 0
-    firstVertex: 0
-    vertexCount: 40
-    localAABB:
-      m_Center: {x: 9.5, y: 0.5, z: 0}
-      m_Extent: {x: 9.5, y: 0.5, z: 0}
-  m_Shapes:
-    vertices: []
-    shapes: []
-    channels: []
-    fullWeights: []
-  m_BindPose: []
-  m_BoneNameHashes: 
-  m_RootBoneNameHash: 0
-  m_BonesAABB: []
-  m_VariableBoneCountWeights:
-    m_Data: 
-  m_MeshCompression: 0
-  m_IsReadable: 1
-  m_KeepVertices: 1
-  m_KeepIndices: 1
-  m_IndexFormat: 0
-  m_IndexBuffer: 000001000300000003000200020003000500020005000400040005000700040007000600060007000900060009000800080009000b0008000b000a000a000b000d000a000d000c000c000d000f000c000f000e000e000f0011000e0011001000100011001300100013001200120013001500120015001400140015001700140017001600160017001900160019001800180019001b0018001b001a001a001b001d001a001d001c001c001d001f001c001f001e001e001f0021001e0021002000200021002300200023002200220023002500220025002400240025002700240027002600
-  m_VertexData:
-    serializedVersion: 3
-    m_VertexCount: 40
-    m_Channels:
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 12
-      format: 0
-      dimension: 3
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 24
-      format: 0
-      dimension: 2
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    - stream: 0
-      offset: 0
-      format: 0
-      dimension: 0
-    m_DataSize: 1280
-    _typelessdata: 0000000000000000000000000000000000000000000080bf0000000000000000000000000000803f000000000000000000000000000080bf000000000000003f0000803f00000000000000000000000000000000000080bfcdcc4c3d000000000000803f0000803f000000000000000000000000000080bfcdcc4c3d0000003f0000004000000000000000000000000000000000000080bfcdcccc3d00000000000000400000803f000000000000000000000000000080bfcdcccc3d0000003f0000404000000000000000000000000000000000000080bf9a99193e00000000000040400000803f000000000000000000000000000080bf9a99193e0000003f0000804000000000000000000000000000000000000080bfcdcc4c3e00000000000080400000803f000000000000000000000000000080bfcdcc4c3e0000003f0000a04000000000000000000000000000000000000080bf0000803e000000000000a0400000803f000000000000000000000000000080bf0000803e0000003f0000c04000000000000000000000000000000000000080bf9a99993e000000000000c0400000803f000000000000000000000000000080bf9a99993e0000003f0000e04000000000000000000000000000000000000080bf3333b33e000000000000e0400000803f000000000000000000000000000080bf3333b33e0000003f0000004100000000000000000000000000000000000080bfcdcccc3e00000000000000410000803f000000000000000000000000000080bfcdcccc3e0000003f0000104100000000000000000000000000000000000080bf6666e63e00000000000010410000803f000000000000000000000000000080bf6666e63e0000003f0000204100000000000000000000000000000000000080bf0000003f00000000000020410000803f000000000000000000000000000080bf0000003f0000003f0000304100000000000000000000000000000000000080bfcdcc0c3f00000000000030410000803f000000000000000000000000000080bfcdcc0c3f0000003f0000404100000000000000000000000000000000000080bf9a99193f00000000000040410000803f000000000000000000000000000080bf9a99193f0000003f0000504100000000000000000000000000000000000080bf6666263f00000000000050410000803f000000000000000000000000000080bf6666263f0000003f0000604100000000000000000000000000000000000080bf3333333f00000000000060410000803f000000000000000000000000000080bf3333333f0000003f0000704100000000000000000000000000000000000080bf0000403f00000000000070410000803f000000000000000000000000000080bf0000403f0000003f0000804100000000000000000000000000000000000080bfcdcc4c3f00000000000080410000803f000000000000000000000000000080bfcdcc4c3f0000003f0000884100000000000000000000000000000000000080bf9a99593f00000000000088410000803f000000000000000000000000000080bf9a99593f0000003f0000904100000000000000000000000000000000000080bf6666663f00000000000090410000803f000000000000000000000000000080bf6666663f0000003f0000984100000000000000000000000000000000000080bf3333733f00000000000098410000803f000000000000000000000000000080bf3333733f0000003f
-  m_CompressedMesh:
-    m_Vertices:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UV:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Normals:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Tangents:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Weights:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_NormalSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_TangentSigns:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_FloatColors:
-      m_NumItems: 0
-      m_Range: 0
-      m_Start: 0
-      m_Data: 
-      m_BitSize: 0
-    m_BoneIndices:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_Triangles:
-      m_NumItems: 0
-      m_Data: 
-      m_BitSize: 0
-    m_UVInfo: 0
-  m_LocalAABB:
-    m_Center: {x: 9.5, y: 0.5, z: 0}
-    m_Extent: {x: 9.5, y: 0.5, z: 0}
-  m_MeshUsageFlags: 0
-  m_CookingOptions: 30
-  m_BakedConvexCollisionMesh: 
-  m_BakedTriangleCollisionMesh: 
-  m_MeshMetrics[0]: 1
-  m_MeshMetrics[1]: 1
-  m_MeshOptimizationFlags: 1
-  m_StreamData:
-    serializedVersion: 2
-    offset: 0
-    size: 0
-    path: 
 --- !u!1 &330794796
 GameObject:
   m_ObjectHideFlags: 0
@@ -14974,7 +14839,7 @@ GameObject:
   - component: {fileID: 356198256}
   m_Layer: 0
   m_Name: bone_61
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14991,7 +14856,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -15067,7 +14932,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.5541715, y: 0.0061413245}
+  m_ConnectedAnchor: {x: 0.5543771, y: -0.053560697}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -15761,7 +15626,7 @@ GameObject:
   - component: {fileID: 384561091}
   m_Layer: 0
   m_Name: Rope
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -15918,9 +15783,9 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 384561087}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 186.68, y: -10.76, z: -0.1084368}
-  m_LocalScale: {x: 0.1, y: 0.053156253, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: -23.16, y: -0.015686633, z: -0.1084368}
+  m_LocalScale: {x: 0.2, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1591805413}
@@ -15997,7 +15862,7 @@ Transform:
   - {fileID: 954784541}
   - {fileID: 1710847358}
   - {fileID: 2139141816}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2040455060}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
 --- !u!114 &384561091
 MonoBehaviour:
@@ -16047,7 +15912,7 @@ BoxCollider2D:
   m_Offset: {x: 0.011395574, y: 0.0013561249}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5435037, y: 0.015610634}
+    pivot: {x: 0.5, y: 1}
     oldSize: {x: 1.1914845, y: 45.1}
     newSize: {x: 1.1914845, y: 45.1}
     adaptiveTilingThreshold: 0.5
@@ -16202,7 +16067,7 @@ GameObject:
   - component: {fileID: 397087408}
   m_Layer: 0
   m_Name: bone_53
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16219,7 +16084,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -16295,7 +16160,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.67722535, y: -0.004291138}
+  m_ConnectedAnchor: {x: 0.67743444, y: 0.03748518}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -16464,7 +16329,7 @@ GameObject:
   - component: {fileID: 402541053}
   m_Layer: 0
   m_Name: bone_60
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16481,7 +16346,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -16557,7 +16422,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.6946784, y: 0.001235013}
+  m_ConnectedAnchor: {x: 0.6944202, y: -0.010837238}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -16726,7 +16591,7 @@ GameObject:
   - component: {fileID: 421137994}
   m_Layer: 0
   m_Name: bone_42
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16743,7 +16608,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -16819,7 +16684,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.59545606, y: -0.023472637}
+  m_ConnectedAnchor: {x: 0.5955619, y: 0.19889362}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -17119,7 +16984,7 @@ GameObject:
   - component: {fileID: 442185717}
   m_Layer: 0
   m_Name: bone_48
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17136,7 +17001,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -17212,7 +17077,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.5660787, y: -0.0012036079}
+  m_ConnectedAnchor: {x: 0.5660363, y: 0.010569255}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -17512,7 +17377,7 @@ GameObject:
   - component: {fileID: 479072938}
   m_Layer: 0
   m_Name: bone_49
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17529,7 +17394,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -17605,7 +17470,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.6389643, y: 0.015342798}
+  m_ConnectedAnchor: {x: 0.6389168, y: -0.13271195}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -17774,7 +17639,7 @@ GameObject:
   - component: {fileID: 501823630}
   m_Layer: 0
   m_Name: bone_62
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17791,7 +17656,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -17867,7 +17732,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.5621291, y: 0.004296185}
+  m_ConnectedAnchor: {x: 0.5621613, y: -0.037487164}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -18582,7 +18447,7 @@ GameObject:
   - component: {fileID: 531831105}
   m_Layer: 0
   m_Name: bone_17
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18599,7 +18464,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -18675,7 +18540,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.494022, y: 0.00000010226161}
+  m_ConnectedAnchor: {x: 0.49396196, y: 0.0000009806378}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -18844,7 +18709,7 @@ GameObject:
   - component: {fileID: 548332082}
   m_Layer: 0
   m_Name: bone_35
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18861,7 +18726,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -18937,7 +18802,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.68147427, y: 0.0012671879}
+  m_ConnectedAnchor: {x: 0.68132156, y: -0.011110902}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -19761,7 +19626,7 @@ GameObject:
   - component: {fileID: 586664821}
   m_Layer: 0
   m_Name: bone_38
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -19778,7 +19643,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -19854,7 +19719,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.6645351, y: -0.0008210303}
+  m_ConnectedAnchor: {x: 0.6642991, y: 0.0071174544}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -20285,7 +20150,7 @@ GameObject:
   - component: {fileID: 609268456}
   m_Layer: 0
   m_Name: bone_3
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20302,7 +20167,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -20378,7 +20243,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.532204, y: -0.0009289485}
+  m_ConnectedAnchor: {x: 0.53201854, y: 0.008052554}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -20547,7 +20412,7 @@ GameObject:
   - component: {fileID: 610401269}
   m_Layer: 0
   m_Name: bone_58
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20564,7 +20429,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -20640,7 +20505,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.65260786, y: -0.006140388}
+  m_ConnectedAnchor: {x: 0.65262014, y: 0.05357727}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -20891,7 +20756,7 @@ GameObject:
   - component: {fileID: 621055637}
   m_Layer: 0
   m_Name: bone_68
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20908,7 +20773,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -20984,7 +20849,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.66424567, y: -0.0000009793253}
+  m_ConnectedAnchor: {x: 0.6642968, y: -0.000009393105}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -21177,11 +21042,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3253998164232014507, guid: 22fe93c9c08f8ca40ba87dfdec88111e, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: -0.8179388
+      value: 147.78206
       objectReference: {fileID: 0}
     - target: {fileID: 3253998164232014507, guid: 22fe93c9c08f8ca40ba87dfdec88111e, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 19.309284
+      value: 8.669286
       objectReference: {fileID: 0}
     - target: {fileID: 3253998164232014517, guid: 22fe93c9c08f8ca40ba87dfdec88111e, type: 3}
       propertyPath: m_BodyType
@@ -21732,7 +21597,7 @@ GameObject:
   - component: {fileID: 691781965}
   m_Layer: 0
   m_Name: bone_46
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21749,7 +21614,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -21825,7 +21690,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.7129019, y: 0.0067107305}
+  m_ConnectedAnchor: {x: 0.71282274, y: -0.058576547}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -22385,7 +22250,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 178, y: -12.4, z: 1}
-  m_LocalScale: {x: 0.35609376, y: 1.2, z: 1}
+  m_LocalScale: {x: 0.35609376, y: 3.58, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -23012,7 +22877,7 @@ GameObject:
   - component: {fileID: 750417471}
   m_Layer: 0
   m_Name: bone_26
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23029,7 +22894,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -23105,7 +22970,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.59592664, y: 0.0000072986986}
+  m_ConnectedAnchor: {x: 0.59614885, y: -0.000013992491}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -23405,7 +23270,7 @@ GameObject:
   - component: {fileID: 783458963}
   m_Layer: 0
   m_Name: bone_24
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23422,7 +23287,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -23498,7 +23363,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.596457, y: 0.007977793}
+  m_ConnectedAnchor: {x: 0.59641576, y: -0.06954139}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -24768,7 +24633,7 @@ GameObject:
   - component: {fileID: 889048858}
   m_Layer: 0
   m_Name: bone_6
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24785,7 +24650,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -24861,7 +24726,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.71067476, y: 0.012491697}
+  m_ConnectedAnchor: {x: 0.7106201, y: -0.108551815}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -25526,7 +25391,7 @@ GameObject:
   - component: {fileID: 923017990}
   m_Layer: 0
   m_Name: bone_28
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -25543,7 +25408,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -25619,7 +25484,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.54538345, y: 0.0079701}
+  m_ConnectedAnchor: {x: 0.545333, y: -0.069477975}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -25681,7 +25546,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3253998164232014507, guid: 22fe93c9c08f8ca40ba87dfdec88111e, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 147.78206
+      value: 163.13205
       objectReference: {fileID: 0}
     - target: {fileID: 3253998164232014507, guid: 22fe93c9c08f8ca40ba87dfdec88111e, type: 3}
       propertyPath: m_ConnectedAnchor.y
@@ -26404,7 +26269,7 @@ GameObject:
   - component: {fileID: 941330642}
   m_Layer: 0
   m_Name: bone_41
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26421,7 +26286,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -26497,7 +26362,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.47001255, y: -0.0046149804}
+  m_ConnectedAnchor: {x: 0.46986264, y: 0.040348295}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -26535,7 +26400,7 @@ GameObject:
   - component: {fileID: 943241875}
   m_Layer: 0
   m_Name: bone_25
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26552,7 +26417,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -26628,7 +26493,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.68168193, y: 0.007977677}
+  m_ConnectedAnchor: {x: 0.6815057, y: -0.069587536}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -26945,7 +26810,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -27021,7 +26886,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.61338645, y: -0.007979874}
+  m_ConnectedAnchor: {x: 0.6134281, y: 0.06954773}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -27376,7 +27241,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 165.3, y: -12.4, z: 1}
-  m_LocalScale: {x: 0.35609376, y: 1.2, z: 1}
+  m_LocalScale: {x: 0.64, y: 4.45, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -27395,7 +27260,7 @@ GameObject:
   - component: {fileID: 968535753}
   m_Layer: 0
   m_Name: bone_23
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27412,7 +27277,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -27488,7 +27353,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.65766644, y: -0.0025737218}
+  m_ConnectedAnchor: {x: 0.65769976, y: 0.022426918}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -27526,7 +27391,7 @@ GameObject:
   - component: {fileID: 970210708}
   m_Layer: 0
   m_Name: bone_55
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27543,7 +27408,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -27619,7 +27484,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.61138034, y: 0.014771468}
+  m_ConnectedAnchor: {x: 0.6113304, y: -0.12774369}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -28443,7 +28308,7 @@ GameObject:
   - component: {fileID: 1004530219}
   m_Layer: 0
   m_Name: bone_21
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28460,7 +28325,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -28536,7 +28401,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.6200323, y: 0.008727112}
+  m_ConnectedAnchor: {x: 0.62006843, y: -0.07606845}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -28619,7 +28484,7 @@ PrefabInstance:
     - target: {fileID: 270394267970809002, guid: 3fe42846fb4bc414b84401e88f8f9532, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 322924078}
+      objectReference: {fileID: 1409703616}
     - target: {fileID: 270394267970809003, guid: 3fe42846fb4bc414b84401e88f8f9532, type: 3}
       propertyPath: spacing
       value: 0.5
@@ -28945,7 +28810,7 @@ GameObject:
   - component: {fileID: 1016989959}
   m_Layer: 0
   m_Name: bone_34
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28962,7 +28827,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -29038,7 +28903,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.6474679, y: -0.006710707}
+  m_ConnectedAnchor: {x: 0.64741236, y: 0.0585554}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -30504,7 +30369,7 @@ GameObject:
   - component: {fileID: 1134094220}
   m_Layer: 0
   m_Name: bone_4
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30521,7 +30386,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -30597,7 +30462,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.5814166, y: 0.013398083}
+  m_ConnectedAnchor: {x: 0.581406, y: -0.1158968}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -31117,11 +30982,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3746189148716881092, guid: 11b184ec22fd5664f88efa6361243f2f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.2
+      value: 181.9
       objectReference: {fileID: 0}
     - target: {fileID: 3746189148716881092, guid: 11b184ec22fd5664f88efa6361243f2f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.1
+      value: 1.9
       objectReference: {fileID: 0}
     - target: {fileID: 3746189148716881092, guid: 11b184ec22fd5664f88efa6361243f2f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -31737,7 +31602,7 @@ GameObject:
   - component: {fileID: 1162648984}
   m_Layer: 0
   m_Name: bone_45
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31754,7 +31619,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -31830,7 +31695,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.5422473, y: -0.000007156688}
+  m_ConnectedAnchor: {x: 0.54234403, y: 0.00001535054}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -32130,7 +31995,7 @@ GameObject:
   - component: {fileID: 1183728367}
   m_Layer: 0
   m_Name: bone_37
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32147,7 +32012,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -32223,7 +32088,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.5333613, y: -0.0017200111}
+  m_ConnectedAnchor: {x: 0.5334363, y: 0.01512068}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -32261,7 +32126,7 @@ GameObject:
   - component: {fileID: 1187916885}
   m_Layer: 0
   m_Name: bone_22
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32278,7 +32143,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -32354,7 +32219,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.5790035, y: 0.0018142471}
+  m_ConnectedAnchor: {x: 0.5791424, y: -0.015792344}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -32392,7 +32257,7 @@ GameObject:
   - component: {fileID: 1209591883}
   m_Layer: 0
   m_Name: bone_8
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32409,7 +32274,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -32485,7 +32350,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.7569667, y: -0.0008465957}
+  m_ConnectedAnchor: {x: 0.7568376, y: 0.007370308}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -32700,7 +32565,7 @@ GameObject:
   - component: {fileID: 1243945686}
   m_Layer: 0
   m_Name: bone_30
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32717,7 +32582,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -32793,7 +32658,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.61314994, y: 0.00000020462805}
+  m_ConnectedAnchor: {x: 0.6131917, y: 0.000001962653}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -33285,7 +33150,7 @@ GameObject:
   - component: {fileID: 1288504572}
   m_Layer: 0
   m_Name: bone_5
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33302,7 +33167,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -33378,7 +33243,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.5136496, y: -0.0049275993}
+  m_ConnectedAnchor: {x: 0.51378876, y: 0.04303231}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -33940,7 +33805,7 @@ GameObject:
   - component: {fileID: 1310360281}
   m_Layer: 0
   m_Name: bone_51
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -33957,7 +33822,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -34033,7 +33898,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.5702011, y: -0.019644601}
+  m_ConnectedAnchor: {x: 0.5701335, y: 0.16767174}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -34202,7 +34067,7 @@ GameObject:
   - component: {fileID: 1319843464}
   m_Layer: 0
   m_Name: bone_27
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34219,7 +34084,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -34295,7 +34160,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.63037324, y: -0.000002367405}
+  m_ConnectedAnchor: {x: 0.6302111, y: -0.000022699152}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -35459,7 +35324,7 @@ GameObject:
   - component: {fileID: 1364666961}
   m_Layer: 0
   m_Name: bone_32
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35476,7 +35341,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -35552,7 +35417,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.6409879, y: -0.015498753}
+  m_ConnectedAnchor: {x: 0.6409725, y: 0.13398354}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -35983,7 +35848,7 @@ GameObject:
   - component: {fileID: 1400853517}
   m_Layer: 0
   m_Name: bone_50
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36000,7 +35865,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -36076,7 +35941,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.61446965, y: -0.0067995866}
+  m_ConnectedAnchor: {x: 0.6146544, y: 0.05934566}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -36493,6 +36358,171 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2109880740}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!43 &1409703616
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WaterMesh
+  serializedVersion: 11
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 114
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 40
+    localAABB:
+      m_Center: {x: 9.5, y: 0.5, z: 0}
+      m_Extent: {x: 9.5, y: 0.5, z: 0}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000001000300000003000200020003000500020005000400040005000700040007000600060007000900060009000800080009000b0008000b000a000a000b000d000a000d000c000c000d000f000c000f000e000e000f0011000e0011001000100011001300100013001200120013001500120015001400140015001700140017001600160017001900160019001800180019001b0018001b001a001a001b001d001a001d001c001c001d001f001c001f001e001e001f0021001e0021002000200021002300200023002200220023002500220025002400240025002700240027002600
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 40
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 1280
+    _typelessdata: 0000000000000000000000000000000000000000000080bf0000000000000000000000000000803f000000000000000000000000000080bf000000000000003f0000803f00000000000000000000000000000000000080bfcdcc4c3d000000000000803f0000803f000000000000000000000000000080bfcdcc4c3d0000003f0000004000000000000000000000000000000000000080bfcdcccc3d00000000000000400000803f000000000000000000000000000080bfcdcccc3d0000003f0000404000000000000000000000000000000000000080bf9a99193e00000000000040400000803f000000000000000000000000000080bf9a99193e0000003f0000804000000000000000000000000000000000000080bfcdcc4c3e00000000000080400000803f000000000000000000000000000080bfcdcc4c3e0000003f0000a04000000000000000000000000000000000000080bf0000803e000000000000a0400000803f000000000000000000000000000080bf0000803e0000003f0000c04000000000000000000000000000000000000080bf9a99993e000000000000c0400000803f000000000000000000000000000080bf9a99993e0000003f0000e04000000000000000000000000000000000000080bf3333b33e000000000000e0400000803f000000000000000000000000000080bf3333b33e0000003f0000004100000000000000000000000000000000000080bfcdcccc3e00000000000000410000803f000000000000000000000000000080bfcdcccc3e0000003f0000104100000000000000000000000000000000000080bf6666e63e00000000000010410000803f000000000000000000000000000080bf6666e63e0000003f0000204100000000000000000000000000000000000080bf0000003f00000000000020410000803f000000000000000000000000000080bf0000003f0000003f0000304100000000000000000000000000000000000080bfcdcc0c3f00000000000030410000803f000000000000000000000000000080bfcdcc0c3f0000003f0000404100000000000000000000000000000000000080bf9a99193f00000000000040410000803f000000000000000000000000000080bf9a99193f0000003f0000504100000000000000000000000000000000000080bf6666263f00000000000050410000803f000000000000000000000000000080bf6666263f0000003f0000604100000000000000000000000000000000000080bf3333333f00000000000060410000803f000000000000000000000000000080bf3333333f0000003f0000704100000000000000000000000000000000000080bf0000403f00000000000070410000803f000000000000000000000000000080bf0000403f0000003f0000804100000000000000000000000000000000000080bfcdcc4c3f00000000000080410000803f000000000000000000000000000080bfcdcc4c3f0000003f0000884100000000000000000000000000000000000080bf9a99593f00000000000088410000803f000000000000000000000000000080bf9a99593f0000003f0000904100000000000000000000000000000000000080bf6666663f00000000000090410000803f000000000000000000000000000080bf6666663f0000003f0000984100000000000000000000000000000000000080bf3333733f00000000000098410000803f000000000000000000000000000080bf3333733f0000003f
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 9.5, y: 0.5, z: 0}
+    m_Extent: {x: 9.5, y: 0.5, z: 0}
+  m_MeshUsageFlags: 0
+  m_CookingOptions: 30
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
 --- !u!1 &1411919045
 GameObject:
   m_ObjectHideFlags: 0
@@ -36900,7 +36930,7 @@ GameObject:
   - component: {fileID: 1455033665}
   m_Layer: 0
   m_Name: bone_52
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36917,7 +36947,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -36993,7 +37023,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.7211413, y: -0.010454928}
+  m_ConnectedAnchor: {x: 0.72102976, y: 0.091097}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -37031,7 +37061,7 @@ GameObject:
   - component: {fileID: 1473649404}
   m_Layer: 0
   m_Name: bone_63
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37048,7 +37078,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -37124,7 +37154,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.6212223, y: 0.003079535}
+  m_ConnectedAnchor: {x: 0.62109077, y: -0.026971757}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -37424,7 +37454,7 @@ GameObject:
   - component: {fileID: 1487543819}
   m_Layer: 0
   m_Name: bone_65
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37441,7 +37471,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -37517,7 +37547,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.6149754, y: 0.013517216}
+  m_ConnectedAnchor: {x: 0.61513525, y: -0.11696665}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -37874,7 +37904,7 @@ GameObject:
   - component: {fileID: 1507550107}
   m_Layer: 0
   m_Name: bone_64
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -37891,7 +37921,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -37967,7 +37997,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.65914315, y: -0.004321541}
+  m_ConnectedAnchor: {x: 0.6591262, y: 0.03774836}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -38136,7 +38166,7 @@ GameObject:
   - component: {fileID: 1514216854}
   m_Layer: 0
   m_Name: bone_1
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38153,7 +38183,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -38329,7 +38359,7 @@ GameObject:
   - component: {fileID: 1531619643}
   m_Layer: 0
   m_Name: bone_67
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38346,7 +38376,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -38422,7 +38452,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.5962751, y: -0.004008558}
+  m_ConnectedAnchor: {x: 0.5962102, y: 0.035003174}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -38460,7 +38490,7 @@ GameObject:
   - component: {fileID: 1543057101}
   m_Layer: 0
   m_Name: bone_18
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -38477,7 +38507,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -38553,7 +38583,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.681182, y: 0.00000014100338}
+  m_ConnectedAnchor: {x: 0.6813163, y: 0.0000013525829}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -39163,7 +39193,7 @@ GameObject:
   - component: {fileID: 1591805411}
   m_Layer: 0
   m_Name: Hook
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39256,7 +39286,7 @@ HingeJoint2D:
   m_BreakAction: 3
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 187.8798, y: -10.755643}
+  m_ConnectedAnchor: {x: 187.73242, y: -10.754446}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -39294,7 +39324,7 @@ GameObject:
   - component: {fileID: 1600745462}
   m_Layer: 0
   m_Name: bone_29
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39311,7 +39341,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -39387,7 +39417,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.61314994, y: 0.00000020462805}
+  m_ConnectedAnchor: {x: 0.61316824, y: 0.000001962578}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -39818,7 +39848,7 @@ GameObject:
   - component: {fileID: 1616599400}
   m_Layer: 0
   m_Name: bone_40
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39835,7 +39865,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -39911,7 +39941,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.6301932, y: -0.005442574}
+  m_ConnectedAnchor: {x: 0.6303181, y: 0.04752564}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -40866,7 +40896,7 @@ GameObject:
   - component: {fileID: 1664224281}
   m_Layer: 0
   m_Name: bone_14
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -40883,7 +40913,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -40959,7 +40989,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.50091034, y: 0.007925544}
+  m_ConnectedAnchor: {x: 0.5009148, y: -0.068962194}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -41390,7 +41420,7 @@ GameObject:
   - component: {fileID: 1691327409}
   m_Layer: 0
   m_Name: bone_13
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41407,7 +41437,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -41483,7 +41513,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.56882524, y: -0.006491674}
+  m_ConnectedAnchor: {x: 0.5686875, y: 0.056611888}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -41931,7 +41961,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -42007,7 +42037,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.545384, y: 0.00797708}
+  m_ConnectedAnchor: {x: 0.54531, y: -0.06947619}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -42176,7 +42206,7 @@ GameObject:
   - component: {fileID: 1726203258}
   m_Layer: 0
   m_Name: bone_9
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42193,7 +42223,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -42269,7 +42299,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.5901858, y: -0.000005208352}
+  m_ConnectedAnchor: {x: 0.5902099, y: -0.00004995361}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -42962,7 +42992,7 @@ GameObject:
   - component: {fileID: 1756215368}
   m_Layer: 0
   m_Name: bone_57
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42979,7 +43009,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -43055,7 +43085,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.6929525, y: 0.0006397024}
+  m_ConnectedAnchor: {x: 0.69312555, y: -0.0055844407}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -43879,7 +43909,7 @@ GameObject:
   - component: {fileID: 1809244177}
   m_Layer: 0
   m_Name: bone_39
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -43896,7 +43926,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -43972,7 +44002,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.579241, y: 0.007979076}
+  m_ConnectedAnchor: {x: 0.57938, y: -0.06953269}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -44403,7 +44433,7 @@ GameObject:
   - component: {fileID: 1826765746}
   m_Layer: 0
   m_Name: bone_19
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44420,7 +44450,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -44496,7 +44526,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.6475337, y: -0.007979144}
+  m_ConnectedAnchor: {x: 0.6474781, y: 0.06956684}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -44534,7 +44564,7 @@ GameObject:
   - component: {fileID: 1851571027}
   m_Layer: 0
   m_Name: bone_43
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -44551,7 +44581,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -44627,7 +44657,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.67893875, y: -0.010066812}
+  m_ConnectedAnchor: {x: 0.67895675, y: 0.087634504}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -45451,7 +45481,7 @@ GameObject:
   - component: {fileID: 1889042486}
   m_Layer: 0
   m_Name: bone_59
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45468,7 +45498,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -45544,7 +45574,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.59495425, y: 0.0067755035}
+  m_ConnectedAnchor: {x: 0.59503335, y: -0.05906718}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -45713,7 +45743,7 @@ GameObject:
   - component: {fileID: 1899453870}
   m_Layer: 0
   m_Name: bone_70
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45730,7 +45760,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -45806,7 +45836,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.698613, y: 0.0079769}
+  m_ConnectedAnchor: {x: 0.6985435, y: -0.06961834}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -45844,7 +45874,7 @@ GameObject:
   - component: {fileID: 1907358625}
   m_Layer: 0
   m_Name: bone_15
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -45861,7 +45891,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -45937,7 +45967,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.6470224, y: -0.0000002979324}
+  m_ConnectedAnchor: {x: 0.64725405, y: -0.000002858393}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -48324,6 +48354,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 157817802}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2040455059
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2040455060}
+  m_Layer: 0
+  m_Name: RopeRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2040455060
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040455059}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 188.11499, y: -10.75, z: 0}
+  m_LocalScale: {x: 0.65, y: 0.6375, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 384561090}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2043493456
 GameObject:
   m_ObjectHideFlags: 0
@@ -48598,7 +48660,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
   m_LocalPosition: {x: 172, y: -12.4, z: 1}
-  m_LocalScale: {x: 0.35609376, y: 1.2, z: 1}
+  m_LocalScale: {x: 0.35609376, y: 2.32, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -48748,7 +48810,7 @@ GameObject:
   - component: {fileID: 2091164469}
   m_Layer: 0
   m_Name: bone_36
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -48765,7 +48827,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -48841,7 +48903,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.6318488, y: 0.0033553238}
+  m_ConnectedAnchor: {x: 0.63198847, y: -0.029334363}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -49575,7 +49637,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3253998164232014507, guid: 22fe93c9c08f8ca40ba87dfdec88111e, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 163.13205
+      value: 178.53206
       objectReference: {fileID: 0}
     - target: {fileID: 3253998164232014507, guid: 22fe93c9c08f8ca40ba87dfdec88111e, type: 3}
       propertyPath: m_ConnectedAnchor.y
@@ -50106,7 +50168,7 @@ GameObject:
   - component: {fileID: 2114927741}
   m_Layer: 0
   m_Name: bone_2
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50123,7 +50185,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -50199,7 +50261,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.83337563, y: 0.0044696624}
+  m_ConnectedAnchor: {x: 0.83344185, y: -0.03904755}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -50237,7 +50299,7 @@ GameObject:
   - component: {fileID: 2120825851}
   m_Layer: 0
   m_Name: bone_10
-  m_TagString: Rope
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -50254,7 +50316,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -50330,7 +50392,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.644487, y: 0.003679648}
+  m_ConnectedAnchor: {x: 0.64457875, y: -0.032114226}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -51366,7 +51428,7 @@ HingeJoint2D:
   m_BreakAction: 0
   m_AutoConfigureConnectedAnchor: 1
   m_Anchor: {x: 0, y: 0}
-  m_ConnectedAnchor: {x: 0.579241, y: -0.00798062}
+  m_ConnectedAnchor: {x: 0.5793799, y: 0.06951805}
   m_UseMotor: 0
   m_Motor:
     m_MotorSpeed: 0
@@ -51387,7 +51449,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 5
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 1
@@ -51647,8 +51709,8 @@ SceneRoots:
   - {fileID: 229510649}
   - {fileID: 1505700139}
   - {fileID: 2139573083}
-  - {fileID: 384561090}
   - {fileID: 1134243588}
   - {fileID: 719789955}
   - {fileID: 270611552}
   - {fileID: 1094746504}
+  - {fileID: 2040455060}
