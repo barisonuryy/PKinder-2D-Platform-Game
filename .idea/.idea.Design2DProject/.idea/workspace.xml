@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6cca5d80-71f3-4793-a64a-9afe45756df4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Design2DProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Design2DProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Level3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/ropeasset.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/ropeasset.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/RopeMechanic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RopeMechanic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level2.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +20,11 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/CheckPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LaserBulletMech.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/LaserMech.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MagicLadderMech.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/effectofObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SFX.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/energyControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/trapMech.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
@@ -136,6 +139,12 @@
       <workItem from="1715190531433" duration="1188000" />
       <workItem from="1715247828575" duration="1435000" />
       <workItem from="1715329594011" duration="830000" />
+      <workItem from="1715352577575" duration="3581000" />
+      <workItem from="1715385991031" duration="758000" />
+      <workItem from="1715546245352" duration="3294000" />
+      <workItem from="1715586812796" duration="5085000" />
+      <workItem from="1715673794493" duration="21807000" />
+      <workItem from="1715834886432" duration="9417000" />
     </task>
     <servers />
   </component>
