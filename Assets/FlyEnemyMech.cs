@@ -11,6 +11,8 @@ public class FlyEnemyMech : MonoBehaviour
 
     public float startShootCoolDown;
     [SerializeField] private PortalsSystem ps;
+    [SerializeField] private level4 ps1;
+
     public float startTime;
     // Start is called before the first frame update
     void Start()
@@ -21,23 +23,40 @@ public class FlyEnemyMech : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         Vector2 direction = new Vector2(player.position.x - transform.position.x,
             player.position.y - transform.position.y);
         transform.up = direction;
-        if (ps.playerIsIn)
+        if (ps != null)
         {
-            if (shotCoolDown <= 0)
+            if (ps.playerIsIn)
             {
-                Instantiate(bullet, transform.position, transform.rotation);
-                shotCoolDown = startShootCoolDown;
-            }
-            else
-            {
-                shotCoolDown -= Time.deltaTime;
+                if (shotCoolDown <= 0)
+                {
+                    Instantiate(bullet, transform.position, transform.rotation);
+                    shotCoolDown = startShootCoolDown;
+                }
+                else
+                {
+                    shotCoolDown -= Time.deltaTime;
+                }
             }
         }
-  
-      
+        if(ps1 != null)
+        {
+            if (ps1.playerIsIn)
+            {
+                if (shotCoolDown <= 0)
+                {
+                    Instantiate(bullet, transform.position, transform.rotation);
+                    shotCoolDown = startShootCoolDown;
+                }
+                else
+                {
+                    shotCoolDown -= Time.deltaTime;
+                }
+            }
+        }
     }
     
 }
