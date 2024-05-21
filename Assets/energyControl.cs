@@ -13,13 +13,15 @@ public class energyControl : MonoBehaviour
     public Color endColor = Color.red; // Bitiş rengi (kırmızı)
 
     public float transitionDuration = 2f; // Geçiş süresi
-
+    public  bool isEnergy;
     private float transitionTimer = 0f;
+    
     public bool isCompleted;
     // Start is called before the first frame update
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        isEnergy = false;
     }
 
     // Update is called once per frame
@@ -28,6 +30,7 @@ public class energyControl : MonoBehaviour
         
         if (_laser[0].isInEnergyArea && _laser[1].isInEnergyArea && _laser[2].isInEnergyArea)
         {
+            isEnergy = true;
             Debug.Log("OLDUU");
             transitionTimer += Time.deltaTime;
 

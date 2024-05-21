@@ -82,9 +82,10 @@ public class LaserMech : MonoBehaviour
     {
         if (other.gameObject.name == "EnergyTriangle")
         {
-            Debug.Log("Alana girildi");
+            Debug.Log("Alana girildiKardesm");
             isInEnergyArea = true;
         }
+        
     }
 
     private void OnTriggerExit2D(Collider2D other)
