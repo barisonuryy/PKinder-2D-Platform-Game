@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6cca5d80-71f3-4793-a64a-9afe45756df4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Design2DProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Design2DProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LaserMech.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/LaserMech.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MagicLadderMech.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MagicLadderMech.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/energyControl.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/energyControl.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Level3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level3.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Holder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Holder.prefab" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +22,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/LaserBulletMech.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LaserMech.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/MagicLadderMech.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MiniPortal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/effectofObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SFX.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SandMechanic.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/energyControl.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/trapMech.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -148,6 +148,8 @@
       <workItem from="1715673794493" duration="21807000" />
       <workItem from="1715834886432" duration="9417000" />
       <workItem from="1716321434112" duration="1344000" />
+      <workItem from="1716398633195" duration="4000" />
+      <workItem from="1716445003859" duration="11518000" />
     </task>
     <servers />
   </component>
