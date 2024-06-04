@@ -17,7 +17,7 @@ public class MinoHealthUI : MonoBehaviour
     void Update()
     {
         if (Camera.main != null)
-            slider.transform.position = Camera.main.WorldToScreenPoint(transform.root.position + offset);
+            slider.transform.position =transform.root.position + offset;
     }
 
     public void setHealthUI(float health,float maxHealth)
