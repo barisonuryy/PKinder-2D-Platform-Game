@@ -40,19 +40,19 @@ public class Wall : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.Alpha1))
             {
                 Debug.Log("Talha1");
-                StartCoroutine(OpenTile(1));
+                StartCoroutine(OpenTile(0));
                 break;
             }
             else if (Input.GetKeyDown(KeyCode.Alpha2))
             {
                 Debug.Log("Talha2");
-                StartCoroutine(OpenTile(2));
+                StartCoroutine(OpenTile(1));
                 break;
             }
             else if (Input.GetKeyDown(KeyCode.Alpha3))
             {
                 Debug.Log("Talha3");
-                StartCoroutine(OpenTile(3));
+                StartCoroutine(OpenTile(2));
                 break;
             }
             yield return null;
