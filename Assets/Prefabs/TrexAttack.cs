@@ -28,24 +28,35 @@ public class TrexAttack : MonoBehaviour
     [SerializeField] Vector2 boxSize;
     [SerializeField] LayerMask groundLayer;
     private bool isGrounded;
-
+ 
     [Header("ForSeeingPlayer")]
     [SerializeField] Vector2 lineofSite;
     [SerializeField] LayerMask player;
     private bool canSeePlayer;
+    private float defaultCheckVal,defaultCheckVal2;
+    [SerializeField] private GameObject groundGameObject,wallGameObject;
+    [SerializeField] private float randomMax, randomMed,randomMin;
+
+    private CapsuleCollider2D _collider2D;
     // Start is called before the first frame update
     void Start()
     {
+        defaultCheckVal = groundGameObject.transform.localPosition.y;
+        defaultCheckVal2 = wallGameObject.transform.localPosition.y;
         anim = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-       
+        _collider2D = GetComponent<CapsuleCollider2D>();
+
     }
 
     // Update is called once per frame
     void Update()
     {
-    
-       
+
+        if (rb.velocity.y > 2)
+        {
+            _collider2D.enabled = true;
+        }
      
 
 
@@ -58,7 +69,7 @@ public class TrexAttack : MonoBehaviour
         isGrounded = Physics2D.OverlapBox(groundCheck.position, boxSize, 0, groundLayer);
         canSeePlayer = Physics2D.OverlapBox(transform.position, lineofSite, 0, player);
 
-        
+        Debug.Log("Durum1Gr"+checkingGround+"Durum2W"+checkingWall+"Durum3isGr"+isGrounded+"canSee"+canSeePlayer);
        
      
         if (!canSeePlayer&&isGrounded)
@@ -68,6 +79,7 @@ public class TrexAttack : MonoBehaviour
         }
        else if(canSeePlayer)
         {
+            rb.isKinematic = false;
             FlipTowardsPlayer();
             JumpAttack();
         }
@@ -83,14 +95,15 @@ public class TrexAttack : MonoBehaviour
     }
     void JumpAttack()
     {
-        float distanceFromPlayer = playerT.position.x - transform.position.x;
+        transform.rotation=Quaternion.Euler(Vector3.zero);
         if (isGrounded)
         {
             isJump = true;
-            rb.AddForce(new Vector2(distanceFromPlayer, jumpHeight), ForceMode2D.Impulse);
+            rb.AddForce(Vector2.up* jumpHeight, ForceMode2D.Impulse);
+            
 
         }
-        else isJump = false;
+        
        
     }
     private void OnDrawGizmos()
@@ -105,7 +118,7 @@ public class TrexAttack : MonoBehaviour
     }
     void Patrolling()
     {
-        
+        Invoke(nameof(SetPhysicVal),0.5f);
         if (!(checkingGround || checkingWall))
         {
             isPatrol = false;
@@ -125,12 +138,16 @@ public class TrexAttack : MonoBehaviour
     {
         moveDirection *= -1;
         facingRight = !facingRight;
-        transform.Rotate(0, 180, 0);
+        transform.Rotate(0, 0, 180);
+        groundGameObject.transform.localPosition = new Vector3(-groundGameObject.transform.localPosition.x,
+            -defaultCheckVal, groundGameObject.transform.localPosition.z);
+        wallGameObject.transform.localPosition = new Vector3(-wallGameObject.transform.localPosition.x, -defaultCheckVal2,
+            wallGameObject.transform.localPosition.z);
     }
     void FlipTowardsPlayer()
     {
         float playerPosition = playerT.position.x - transform.position.x;
-            if (playerPosition < 0 && facingRight)
+           if (playerPosition < 0 && facingRight)
             {
                 Flip();
             }
@@ -141,24 +158,49 @@ public class TrexAttack : MonoBehaviour
         
      
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+
+    void SetPhysicVal()
+    {
+        _collider2D.enabled = false;
+        rb.isKinematic = true;
+    }
+    /*private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Player"))
         {
-            gameObject.GetComponent<BoxCollider2D>().enabled = false;
+            gameObject.GetComponent<CapsuleCollider2D>().enabled = false;
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.collider.CompareTag("Player"))
         {
-            gameObject.GetComponent<BoxCollider2D>().enabled = true;
+            gameObject.GetComponent<CapsuleCollider2D>().enabled = true;
         }
+    }*/
+
+    float generateRandomVal(float health)
+    {
+        float randomVal;
+        if (health <= 500 && health >= 300)
+        {
+            randomVal = Random.Range(randomMed, randomMax);
+        }
+        else if (health < 300 && health >= 100)
+        {
+            randomVal = Random.Range(randomMin, randomMed);
+        }
+        else
+        {
+            randomVal = Random.Range(0, randomMin);
+        }
+
+        return randomVal;
     }
     private void OnAnimatorMove()
     {
-        anim.SetBool("iJump", isJump);
-        anim.SetBool("iPatrol", isPatrol);
+        anim.SetBool("isJump", isJump);
+        
     }
 
 

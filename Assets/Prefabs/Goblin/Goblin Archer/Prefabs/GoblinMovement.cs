@@ -20,23 +20,34 @@ public class GoblinMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        anim.SetBool("walk",true);
+       
         if (Math.Abs(player.position.x - gameObject.transform.position.x) > Range)
         {
 
             Vector2 targetPoint= Vector2.MoveTowards(gameObject.transform.position,
                 new Vector2(player.position.x, gameObject.transform.position.y), Time.deltaTime);
+            if (targetPoint.x != 0)
+            {
+                anim.SetBool("walk",true);
+            }
+            else
+            {
+                anim.SetBool("walk",false);
+            }
             gameObject.transform.position = targetPoint;
+        }
+        else
+        {
+            anim.SetBool("walk",false);
         }
 
         if (player.position.x - gameObject.transform.position.x < 0)
         {
-            gameObject.transform.rotation=Quaternion.Euler(Vector3.zero);
-            
+            gameObject.transform.localScale = new Vector3(-0.5f, 0.5f, 1);  // Sola bak
         }
         else if (player.position.x - gameObject.transform.position.x > 0)
         {
-            gameObject.transform.rotation=Quaternion.Euler(0,180,0);
+            gameObject.transform.localScale = new Vector3(0.5f, 0.5f, 1);   // Sağa bak
         }
         
     }

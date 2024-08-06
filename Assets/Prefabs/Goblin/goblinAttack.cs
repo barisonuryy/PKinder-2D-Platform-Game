@@ -21,15 +21,17 @@ public class goblinAttack : MonoBehaviour
     float weapTime;
     [SerializeField] private Transform playerPos;
     private bool rangeControl;
+    private Animator _animator;
    
     void Start()
     {
+        _animator = GetComponentInParent<Animator>();
         weapTime = 0;
-   
+
 
         coolDownWeap = animationClip.length;
 
-       
+
     }
 
     // Update is called once per frame
@@ -48,11 +50,16 @@ public class goblinAttack : MonoBehaviour
         
             if (Time.time > weapTime&&rangeControl)
             {
- 
+                Invoke(nameof(Shoot),0.51f);
+                _animator.SetBool("attack",true);
                 weapTime = Time.time + coolDownWeap;
-                Shoot();
+              
            
-            } 
+            }
+            else
+            {
+                _animator.SetBool("attack",false);
+            }
             
     }
     void Shoot()

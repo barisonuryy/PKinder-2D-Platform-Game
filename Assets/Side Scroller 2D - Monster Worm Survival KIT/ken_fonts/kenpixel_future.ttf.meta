@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 180cd2fb693b9ea40950083676e2e0e3
+timeCreated: 1512952989
+licenseType: Store
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: KenPixel Future
+  fontNames:
+  - KenPixel Future
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

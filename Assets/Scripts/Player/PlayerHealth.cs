@@ -56,7 +56,8 @@ public class PlayerHealth : MonoBehaviour
        
         if(health <=0) {
            health = maxHealth;
-           //initialHealth--;
+           DecreaseGeneralHealth();
+           
         }
         if (Input.GetKeyDown(KeyCode.P)&&bigPotion>0)
         {
@@ -97,6 +98,7 @@ public class PlayerHealth : MonoBehaviour
         {
             health = maxHealth;
         }
+        
     }
 
 
@@ -226,6 +228,7 @@ public class PlayerHealth : MonoBehaviour
 public void DecreaseGeneralHealth()
 {
         initialHealth--;
+        SaveHealthValues();
         /*invicible = true;
         StartCoroutine(LightOff(0.9f));
         yield return new WaitForSeconds(3f);

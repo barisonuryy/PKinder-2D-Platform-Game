@@ -6,8 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="6cca5d80-71f3-4793-a64a-9afe45756df4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Design2DProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Design2DProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Level3.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Level3.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Holder.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Holder.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/2DWater/Materials/Realistic/WaterRenderTexture.renderTexture" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/2DWater/Materials/Realistic/WaterRenderTexture.renderTexture" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Goblin/Goblin Archer/Prefabs/GoblinMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Goblin/Goblin Archer/Prefabs/GoblinMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Goblin/goblinAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Goblin/goblinAttack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SmokeEffect.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SmokeEffect.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/TrexAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/TrexAttack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level5.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level5.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Level6.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Level6.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/generalHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/generalHealth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +71,7 @@
 }</component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Start Unity" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.30f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-projectPath C:\Users\baris\Documents\GitHub\Design2DProject -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\baris\Documents\GitHub\Design2DProject" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -70,7 +79,7 @@
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
-      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.26f1\Editor\Unity.exe" />
+      <option name="EXE_PATH" value="C:\Program Files\Unity\Hub\Editor\2022.3.30f1\Editor\Unity.exe" />
       <option name="PROGRAM_PARAMETERS" value="-runTests -batchmode -projectPath C:\Users\baris\Documents\GitHub\Design2DProject -testResults Logs/results.xml -testPlatform EditMode -debugCodeOptimization" />
       <option name="WORKING_DIRECTORY" value="C:\Users\baris\Documents\GitHub\Design2DProject" />
       <option name="PASS_PARENT_ENVS" value="1" />
@@ -150,6 +159,11 @@
       <workItem from="1716321434112" duration="1344000" />
       <workItem from="1716398633195" duration="4000" />
       <workItem from="1716445003859" duration="11518000" />
+      <workItem from="1716714681215" duration="9204000" />
+      <workItem from="1717072181906" duration="1192000" />
+      <workItem from="1718278810918" duration="2717000" />
+      <workItem from="1719094924350" duration="594000" />
+      <workItem from="1722967112090" duration="5609000" />
     </task>
     <servers />
   </component>
