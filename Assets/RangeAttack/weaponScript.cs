@@ -45,6 +45,7 @@ public class weaponScript : MonoBehaviour
     }
     void Start()
     {
+        if(bMnage!=null)
         isPcc = bMnage.isPc;
         parentAnim = GetComponentInParent<Animator>();
         isReloaded = true;
@@ -54,6 +55,7 @@ public class weaponScript : MonoBehaviour
         points = new GameObject[numberofPoints];
         for (int i = 0; i < numberofPoints; i++)
         {
+            if(points[i]!=null)
             points[i] = Instantiate(point, shotPoint.position, Quaternion.identity);
         }
         rbWeap = GetComponent<Rigidbody2D>();
@@ -88,6 +90,7 @@ public class weaponScript : MonoBehaviour
 
             for (int i = 0; i < numberofPoints; i++)
             {
+                if(points[i]!=null)
                 points[i].SetActive(true);
                 isShoot = true;
                 
@@ -98,6 +101,7 @@ public class weaponScript : MonoBehaviour
         {
             for (int i = 0; i < numberofPoints; i++)
             {
+                if(points[i]!=null)
                 points[i].SetActive(false);
                 isShoot = false;
               
@@ -112,6 +116,7 @@ public class weaponScript : MonoBehaviour
             {
                 for (int i = 0; i < numberofPoints; i++)
                 {
+                    if(points[i]!=null)
                     points[i].SetActive(true);
                 }
 
@@ -121,6 +126,7 @@ public class weaponScript : MonoBehaviour
             {
                 for (int i = 0; i < numberofPoints; i++)
                 {
+                    if(points[i]!=null)
                     points[i].SetActive(false);
                 }
             }
@@ -132,6 +138,7 @@ public class weaponScript : MonoBehaviour
             {
                 for (int i = 0; i < numberofPoints; i++)
                 {
+                    if(points[i]!=null)
                     points[i].SetActive(true);
                 }
 
@@ -141,6 +148,7 @@ public class weaponScript : MonoBehaviour
             {
                 for (int i = 0; i < numberofPoints; i++)
                 {
+                    if(points[i]!=null)
                     points[i].SetActive(false);
                 }
             }
@@ -204,6 +212,7 @@ public class weaponScript : MonoBehaviour
         }
         for (int i = 0; i < numberofPoints; i++)
         {
+            if(points[i]!=null)
             points[i].transform.position = pointPosition(i * spaceBetweenPoints);
         }
     }
@@ -292,6 +301,7 @@ public class weaponScript : MonoBehaviour
     {
         for (int i = 0; i < numberofPoints&&canChange; i++)
         {
+            if(points[i]!=null)
             points[i].SetActive(false);
         }
     }
@@ -299,6 +309,7 @@ public class weaponScript : MonoBehaviour
     {
         for (int i = 0; i < numberofPoints&&canChange; i++)
         {
+            if(points[i]!=null)
             points[i].SetActive(true);
         }
     }

@@ -18,6 +18,10 @@ TagManager:
   - WallJump
   - LaserEnemy
   - Portal
+  - Rope
+  - JetPack
+  - Witcher
+  - Trex
   layers:
   - Default
   - TransparentFX
@@ -29,7 +33,7 @@ TagManager:
   - Player
   - Wall
   - Ground
-  - 
+  - Enemy
   - 
   - 
   - 

@@ -48,6 +48,7 @@ public class BasicMech : MonoBehaviour
     private bool canUseBoost;
     [SerializeField] private float velocityBooster;
     private float tempVBooster;
+    public bool canUseMovement;
     private void Awake()
     {
         timerJump = 0;
@@ -57,6 +58,7 @@ public class BasicMech : MonoBehaviour
     }
     void Start()
     {
+        canUseMovement = true;
         tempVBooster = velocityBooster;
         totalDurationA = 0;
         animator =GetComponent<Animator>();
@@ -68,7 +70,7 @@ public class BasicMech : MonoBehaviour
     {
         
         dashControl = false;
-        if(isDashing)
+        if(isDashing||!canUseMovement)
         {
             return;
         }
@@ -135,7 +137,7 @@ public class BasicMech : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, verticalS/2);
         }
    
-        Debug.Log("Y DEĞER" + moveValue.action.ReadValue<Vector2>().y);
+       
            
     }
   public  void Flip()
@@ -192,6 +194,11 @@ public class BasicMech : MonoBehaviour
                     if (enemy.gameObject.CompareTag("Archer"))
                     {
                         enemy.GetComponentInParent<GoblinHealth>().TakeDamageGoblin(10);
+                    }
+
+                    if (enemy.gameObject.CompareTag("Witcher"))
+                    {
+                        enemy.GetComponent<WitcherHealth>().TakeDamageWitcher(10);
                     }
                     if (enemy.gameObject.CompareTag("LaserEnemy"))
                     {
@@ -254,7 +261,7 @@ public class BasicMech : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (isDashing)
+        if (isDashing||!canUseMovement)
         {
             return;
         }
@@ -334,6 +341,12 @@ public class BasicMech : MonoBehaviour
     {
         Gizmos.color=Color.magenta;
         Gizmos.DrawWireSphere(bc2d.bounds.center, 0.4f);
+    }
+
+    public void SetMoveState(bool currentState)
+    {
+        canUseMovement = currentState;
+        Debug.Log("IJUSTNEEDALOVER"+canUseMovement);
     }
 }
    

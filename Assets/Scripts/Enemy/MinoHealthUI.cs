@@ -10,7 +10,7 @@ public class MinoHealthUI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        slider = GetComponent<Slider>();
+        slider = GetComponentInChildren<Slider>();
     }
 
     // Update is called once per frame

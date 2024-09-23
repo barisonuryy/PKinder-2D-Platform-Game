@@ -81,14 +81,19 @@ public class PlayerHealth : MonoBehaviour
             }
             smallPotion--;
         }
-            
-        if (p.passed)
+
+        if (p != null)
         {
+            if (p.passed)
+            {
             
-         Invoke("DestroyObj", 1.5f);
-         Invoke("endLevelShowUI", 2.74f);
+                Invoke("DestroyObj", 1.5f);
+                Invoke("endLevelShowUI", 2.74f);
+            }
         }
-        else if(_levelManage.dead&&_levelManage!=null)
+          
+    
+        else if(_levelManage!=null&&_levelManage.dead)
         {
             Invoke("endLevelShowUI", 1f);
         }

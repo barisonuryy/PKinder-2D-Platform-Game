@@ -32,7 +32,7 @@ public class GoblinHealth : MonoBehaviour
         
     }
 
-    public void TakeDamageGoblin(float damage)
+    public void TakeDamageGoblin(int damage)
     {
         goblinHealth -= damage;
         if (goblinHealth <= 0&&!isDead)

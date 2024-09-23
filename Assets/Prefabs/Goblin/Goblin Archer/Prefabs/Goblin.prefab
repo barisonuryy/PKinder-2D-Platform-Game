@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1685298039}
   - component: {fileID: 1685298046}
   - component: {fileID: 4666640449351322703}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Goblin
   m_TagString: Archer
   m_Icon: {fileID: 0}
@@ -161,7 +161,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1024
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -232,7 +232,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400002}
   - component: {fileID: 21200000}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_bellybutton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -316,7 +316,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400004}
   - component: {fileID: 21200002}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_arrow_back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -400,7 +400,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400006}
   - component: {fileID: 21200004}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -484,7 +484,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400008}
   - component: {fileID: 21200006}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -568,7 +568,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400010}
   - component: {fileID: 21200008}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_R_foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -652,7 +652,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400012}
   - component: {fileID: 21200010}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_L_foot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -736,7 +736,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400014}
   - component: {fileID: 21200012}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_R_leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -821,7 +821,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400016}
   - component: {fileID: 21200014}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_L_leg
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -906,7 +906,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400018}
   - component: {fileID: 21200016}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_tooth
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -990,7 +990,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400020}
   - component: {fileID: 21200018}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_R_necklace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1074,7 +1074,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400022}
   - component: {fileID: 21200020}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_L_necklace
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1160,7 +1160,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400024}
   - component: {fileID: 21200022}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_bow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1244,7 +1244,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400026}
   - component: {fileID: 21200024}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_L_upperarm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1329,7 +1329,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400028}
   - component: {fileID: 21200026}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_R_hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1414,7 +1414,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400030}
   - component: {fileID: 21200028}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_R_lowerarm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1499,7 +1499,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400032}
   - component: {fileID: 21200030}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_R_upperarm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1584,7 +1584,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400034}
   - component: {fileID: 21200032}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_L_lowerarm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1669,7 +1669,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400036}
   - component: {fileID: 21200034}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1758,7 +1758,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400038}
   - component: {fileID: 21200036}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_L_hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1843,7 +1843,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400040}
   - component: {fileID: 21200038}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_R_eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1927,7 +1927,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400042}
   - component: {fileID: 21200040}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_L_eye
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2011,7 +2011,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400044}
   - component: {fileID: 21200042}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_R_brow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2095,7 +2095,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400046}
   - component: {fileID: 21200044}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_L_brow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2179,7 +2179,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400048}
   - component: {fileID: 21200046}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2269,7 +2269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400050}
   - component: {fileID: 21200048}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_R_ear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2353,7 +2353,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400052}
   - component: {fileID: 21200050}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_L_ear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2437,7 +2437,7 @@ GameObject:
   m_Component:
   - component: {fileID: 400054}
   - component: {fileID: 21200052}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: goblin_arrow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2522,7 +2522,7 @@ GameObject:
   - component: {fileID: 592781889}
   - component: {fileID: 592781890}
   - component: {fileID: 5108696820998828242}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: AreaControl
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2614,7 +2614,7 @@ GameObject:
   - component: {fileID: 805607951}
   - component: {fileID: 805607953}
   - component: {fileID: 5274123272511517233}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Slider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2630,7 +2630,7 @@ RectTransform:
   m_GameObject: {fileID: 805607950}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.75, z: 1}
+  m_LocalScale: {x: 1.5, y: 2.25, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 959134020}
@@ -2640,7 +2640,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -25, y: -26}
-  m_SizeDelta: {x: 160, y: 20}
+  m_SizeDelta: {x: 320, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &805607953
 MonoBehaviour:
@@ -2685,7 +2685,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 0}
   m_FillRect: {fileID: 2024820175}
   m_HandleRect: {fileID: 0}
-  m_Direction: 0
+  m_Direction: 1
   m_MinValue: 0
   m_MaxValue: 100
   m_WholeNumbers: 1
@@ -2717,7 +2717,7 @@ GameObject:
   - component: {fileID: 959134020}
   - component: {fileID: 959134022}
   - component: {fileID: 959134021}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2791,7 +2791,7 @@ GameObject:
   m_Component:
   - component: {fileID: 969283051}
   - component: {fileID: 969283052}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: BowScript
   m_TagString: Untagged
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
@@ -2843,7 +2843,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1084015482}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2867,7 +2867,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.25}
   m_AnchorMax: {x: 1, y: 0.75}
-  m_AnchoredPosition: {x: -5, y: 0}
+  m_AnchoredPosition: {x: 5, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1243639805
@@ -2882,7 +2882,7 @@ GameObject:
   - component: {fileID: 1243639809}
   - component: {fileID: 1243639808}
   - component: {fileID: 1243639807}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2918,7 +2918,7 @@ Canvas:
   m_GameObject: {fileID: 1243639805}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
+  m_RenderMode: 1
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 1
@@ -2944,10 +2944,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -2981,7 +2981,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1852803899}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: ShotPoint
   m_TagString: Untagged
   m_Icon: {fileID: 7422848464349959988, guid: 0000000000000000d000000000000000, type: 0}
@@ -3014,7 +3014,7 @@ GameObject:
   - component: {fileID: 2024820175}
   - component: {fileID: 2024820177}
   - component: {fileID: 2024820176}
-  m_Layer: 5
+  m_Layer: 10
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3091,8 +3091,16 @@ PrefabInstance:
       value: arrow rot
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 3763885f84df2e2419f87128eb57bdc9, type: 3}
+      propertyPath: m_Layer
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 3763885f84df2e2419f87128eb57bdc9, type: 3}
       propertyPath: m_TagString
       value: Arrow
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: 3763885f84df2e2419f87128eb57bdc9, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 3763885f84df2e2419f87128eb57bdc9, type: 3}
       propertyPath: m_RootOrder
@@ -3240,7 +3248,7 @@ BoxCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1024
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2

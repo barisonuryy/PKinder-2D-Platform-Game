@@ -13,7 +13,16 @@ public class Firetrap : MonoBehaviour
 
     [SerializeField] bool triggered; 
     [SerializeField] bool active; 
+    public TrexTrapMech spawner; // Spawner referansı
 
+    public void DeactivateObject()
+    {
+        gameObject.SetActive(false); // Objeyi pasif hale getir
+        if (spawner != null)
+        {
+            spawner.StartCoroutine(spawner.RespawnObject()); // Yeniden etkinleştirme işlemini başlat
+        }
+    }
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -29,6 +38,12 @@ public class Firetrap : MonoBehaviour
             if (active)
                 collision.GetComponent<PlayerHealth>().TakeDamage(damage);
         }
+
+        if (collision.gameObject.CompareTag("Trex"))
+        {
+           DeactivateObject();
+        }
+        
     }
     private IEnumerator ActivateFiretrap()
     {

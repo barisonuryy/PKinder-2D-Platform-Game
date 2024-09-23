@@ -216,8 +216,13 @@ public class witcherMovement : MonoBehaviour
         isFlameSeqComplete = canUseFlame;
     }
 
-    private void OnAnimatorMove()
+    private void OnDestroy()
     {
-        
+        warningObj.gameObject.SetActive(false);
+        dangerousUI.gameObject.SetActive(false);
+        foreach (var UIs in stunnedUI)
+        {
+            UIs.SetActive(false);
+        }
     }
 }

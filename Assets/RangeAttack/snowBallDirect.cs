@@ -35,9 +35,20 @@ public class snowBallDirect : MonoBehaviour
         if (!collision.collider.CompareTag("Player"))
         {
             hasHit = true;
-            
-          
+            return;
         }
+
+        if (collision.collider.CompareTag("Archer"))
+        {
+            collision.collider.GetComponent<GoblinHealth>().TakeDamageGoblin(5);
+            
+        }
+
+        if (collision.collider.gameObject.name == "Minotaur")
+        {
+            collision.collider.GetComponent<MinotaurHealth>().TakeDamageMinotaur(5);
+        }
+        Destroy(gameObject.transform.parent);
 
 
 

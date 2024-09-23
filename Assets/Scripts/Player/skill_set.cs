@@ -26,6 +26,10 @@ public class skill_set : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (healthControl == null || healthControl == null)
+        {
+            return;
+        }
         if(armorControll)
         armorControl();
         if (!isIn)
