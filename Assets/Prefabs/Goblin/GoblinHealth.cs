@@ -11,7 +11,7 @@ public class GoblinHealth : MonoBehaviour
     [SerializeField] GameObject smoke;
     private bool isDead;
     [SerializeField] private int objIndex;
-    
+    LevelManage levelManage;
     [SerializeField] ParticleSystem prt;
 
     private Animator anim;
@@ -20,6 +20,9 @@ public class GoblinHealth : MonoBehaviour
     {
         anim = GetComponentInParent<Animator>();
         isDead = false;
+        levelManage = GameObject.Find("LevelManager").GetComponent<LevelManage>();
+        smoke = levelManage.smoke;
+      
         
      
         
@@ -27,7 +30,7 @@ public class GoblinHealth : MonoBehaviour
 
     private void Update()
     {
-  
+        if(GetComponentInChildren<MinoHealthUI>() != null)  
         GetComponentInChildren<MinoHealthUI>().setHealthUI(goblinHealth,goblinMaxHealth);
         
     }

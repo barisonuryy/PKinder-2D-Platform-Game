@@ -8,7 +8,8 @@ public class TrexHealth : MonoBehaviour
     public float trexHealth = 500f;
     public float trexMaxHealth = 500f;
     [SerializeField] GameObject smoke;
-    private bool isDead;
+    public bool isDead;
+    [SerializeField] Level4FinalDoor level;
    
 
     private Animator anim;
@@ -23,6 +24,7 @@ public class TrexHealth : MonoBehaviour
 
     private void Update()
     {
+       if(GetComponentInChildren<MinoHealthUI>() != null)
         GetComponentInChildren<MinoHealthUI>().setHealthUI(trexHealth,trexMaxHealth);
        
     }
@@ -44,5 +46,6 @@ public class TrexHealth : MonoBehaviour
     {
         smoke.SetActive(true);
         smoke.transform.position=transform.root.position;
+        level.increaseTrexCount();
     }
 }

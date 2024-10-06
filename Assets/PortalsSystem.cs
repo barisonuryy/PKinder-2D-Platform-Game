@@ -32,7 +32,7 @@ public class PortalsSystem : MonoBehaviour
         _boxCollider2D = gameObject.GetComponent<BoxCollider2D>();
         sizeX = _boxCollider2D.size.x;
         sizeY = _boxCollider2D.size.y;
-        Debug.Log("Collider Büyüklüğü"+sizeX+""+sizeY);
+        
     }
 
     private void FixedUpdate()
@@ -135,7 +135,7 @@ public class PortalsSystem : MonoBehaviour
 
     void ThrowCharacter()
     {
-        Debug.Log("Krakter fırlatıldı");
+       
         rbCharacter.transform.position = portalB.transform.position;
         rbCharacter.GetComponent<Rigidbody2D>().gravityScale = 0f;
         rbCharacter.GetComponent<SpriteRenderer>().enabled = true;

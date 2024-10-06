@@ -147,14 +147,17 @@ public class PlayerHealth : MonoBehaviour
 
    public IEnumerator Respawn(float duration)
    {
-        playerRb.velocity = Vector2.zero;
-        playerRb.simulated = false;
-        transform.localScale=Vector3.zero;
-        yield return new WaitForSeconds(duration);
-        transform.position = checkPointPos;
-        transform.localScale = new Vector3(CharacterScale, CharacterScale, 1);
-        playerRb.simulated = true;
-         gameObject.GetComponent<BasicMech>().SetRespawnFlip();
+        if (gameObject != null)
+        {
+            playerRb.velocity = Vector2.zero;
+            playerRb.simulated = false;
+            transform.localScale = Vector3.zero;
+            yield return new WaitForSeconds(duration);
+            transform.position = checkPointPos;
+            transform.localScale = new Vector3(CharacterScale, CharacterScale, 1);
+            playerRb.simulated = true;
+            gameObject.GetComponent<BasicMech>().SetRespawnFlip();
+        }
    }
 
     public void SetCheckPoint(Vector2 pos)
@@ -207,13 +210,21 @@ public class PlayerHealth : MonoBehaviour
         {
             TakeDamage(2);
         }
+        if (other.gameObject.name == "MaceBlack")
+        {
+            TakeDamage(4);
+        }
         if(other.gameObject.CompareTag("Arrow"))
         {
             TakeDamage(3);
             Destroy(other.gameObject);
         }
-    
-        
+        if (other.gameObject.CompareTag("ObstacleLevel4"))
+        {
+            TakeDamage(4);
+        }
+
+
     }
 
 
@@ -228,6 +239,7 @@ public class PlayerHealth : MonoBehaviour
         health -= healthP;
         
     }
+    
 
 
 public void DecreaseGeneralHealth()

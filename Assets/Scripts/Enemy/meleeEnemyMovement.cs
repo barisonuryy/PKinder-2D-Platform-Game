@@ -10,7 +10,8 @@ public class meleeEnemyMovement : MonoBehaviour
     [Header ("Patrol Points")]
     [SerializeField] private Transform leftEdge;
     [SerializeField] private Transform rightEdge;
-
+    [SerializeField] private EnemyPortalMech _enemyPortalMech;
+    private bool isSelfSpawn;
     [Header("Enemy")]
     [SerializeField] private Transform enemy;
 
@@ -33,7 +34,18 @@ public class meleeEnemyMovement : MonoBehaviour
 
     private void Start()
     {
-        bd = GetComponent<BoxCollider2D>();
+        if (_enemyPortalMech != null)
+        {
+            _enemyPortalMech = GameObject.Find("EnemyPortalArea").GetComponent<EnemyPortalMech>();
+            isSelfSpawn = _enemyPortalMech.isCreatedByPortal;
+            if (isSelfSpawn)
+            {
+                leftEdge = _enemyPortalMech.GetComponent<Transform>().GetChild(0);
+                rightEdge = _enemyPortalMech.GetComponent<Transform>().GetChild(1);
+            }
+
+            bd = GetComponent<BoxCollider2D>();
+        }
     }
 
     private void OnDisable()
@@ -57,6 +69,9 @@ public class meleeEnemyMovement : MonoBehaviour
             else
                 DirectionChange();
         }
+
+       
+     
     }
 
     private void DirectionChange()

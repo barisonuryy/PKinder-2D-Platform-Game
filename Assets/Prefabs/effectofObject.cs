@@ -27,6 +27,7 @@ public class effectofObject : MonoBehaviour
 
     void Start()
     {
+       
         canUseCollision = true;
         inRope = false;
       rb= GetComponent<Rigidbody2D>();
@@ -94,7 +95,7 @@ public class effectofObject : MonoBehaviour
             ropeT = collision.transform;
             fj.connectedBody = rope;
             cdRope=collision.collider; 
-            Debug.Log("Alana girildi");
+            
           
            
          

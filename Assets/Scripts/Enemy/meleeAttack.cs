@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class meleeAttack : MonoBehaviour
 {
@@ -21,6 +22,7 @@ public class meleeAttack : MonoBehaviour
     private float cooldownTimer = Mathf.Infinity;
     [Header("AttackAnimInfo")]
     [SerializeField] AnimationClip animationClip;
+    [SerializeField] float scaleHitBox=1f;
     private float animLength;
 
     public bool continueAttack;
@@ -37,6 +39,8 @@ public class meleeAttack : MonoBehaviour
 
     private void Start()
     {
+        if(SceneManager.GetActiveScene().buildIndex==5)
+        player = GameObject.FindWithTag("Player");
         animLength = animationClip.length;
         continueAttack = false;
     }
@@ -72,7 +76,7 @@ public class meleeAttack : MonoBehaviour
     {
         RaycastHit2D hit = 
             Physics2D.BoxCast(boxCollider.bounds.center + transform.right * range * transform.localScale.x * colliderDistance,
-            new Vector3(boxCollider.bounds.size.x * range, boxCollider.bounds.size.y, boxCollider.bounds.size.z),
+            new Vector3(boxCollider.bounds.size.x * range*scaleHitBox, boxCollider.bounds.size.y * scaleHitBox, boxCollider.bounds.size.z),
             0, Vector2.left, 0, playerLayer);
 
         if (hit.collider != null)
@@ -84,7 +88,7 @@ public class meleeAttack : MonoBehaviour
     {
         Gizmos.color = Color.red;
         Gizmos.DrawWireCube(boxCollider.bounds.center + transform.right * range * transform.localScale.x * colliderDistance,
-            new Vector3(boxCollider.bounds.size.x * range, boxCollider.bounds.size.y, boxCollider.bounds.size.z));
+            new Vector3(boxCollider.bounds.size.x * range*scaleHitBox, boxCollider.bounds.size.y*scaleHitBox, boxCollider.bounds.size.z));
     }
 
     private void DamagePlayer()

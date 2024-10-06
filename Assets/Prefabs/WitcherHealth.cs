@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 
 public class WitcherHealth : MonoBehaviour
@@ -11,6 +12,7 @@ public class WitcherHealth : MonoBehaviour
      public int witcherMaxHealth = 100;
     [SerializeField] GameObject smoke;
     private bool isDead;
+    [SerializeField] GameObject enemyPortal;
     
     
     [SerializeField] ParticleSystem prt;
@@ -28,8 +30,8 @@ public class WitcherHealth : MonoBehaviour
 
     private void Update()
     {
-  
-        GetComponentInChildren<MinoHealthUI>().setHealthUI(witcherHealth,witcherMaxHealth);
+        if (GetComponentInChildren<MinoHealthUI>() != null)
+            GetComponentInChildren<MinoHealthUI>().setHealthUI(witcherHealth,witcherMaxHealth);
         
     }
 
@@ -50,6 +52,10 @@ public class WitcherHealth : MonoBehaviour
     {
         smoke.SetActive(true);
         smoke.transform.position=transform.root.position;
+        if(SceneManager.GetActiveScene().buildIndex == 5)
+        {
+           Destroy(enemyPortal);   
+        }
     }
     public void IncreaseHealth(float incHealth)
     {

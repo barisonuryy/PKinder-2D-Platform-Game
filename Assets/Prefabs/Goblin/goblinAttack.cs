@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class goblinAttack : MonoBehaviour
 {
@@ -37,31 +39,48 @@ public class goblinAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
-        dirPlayer = transform.root.localScale.x;
-       
-        Vector2 gunPosition = transform.position;
-        direcPosition = gunPosition - new Vector2(playerPos.position.x, playerPos.position.y);
-        direction = Mathf.Sign(dirPlayer)*Mathf.Ceil(Mathf.Abs(dirPlayer))*direcPosition;
-        transform.right = direction;
+        if (SceneManager.GetActiveScene().buildIndex == 5)
+        {
+            playerPos = GameObject.Find("MainCharacter").transform;
+        }
+        if (playerPos != null)
+        {
+            // Karakterin yerel ölçeğine göre yönünü kontrol et
+            dirPlayer = transform.root.localScale.x;
 
+            // Karakterin pozisyonu ile oyuncu arasındaki farkı hesapla
+            Vector2 gunPosition = transform.position;
+            direcPosition = new Vector2(playerPos.position.x, playerPos.position.y) - gunPosition;
 
-        rangeControl = transform.GetComponentInParent<TriggerControlArcher>().isInRange;
-        
-            if (Time.time > weapTime&&rangeControl)
+            // Karakterin sağa veya sola bakıp bakmadığına göre yönünü belirle
+            direction = Mathf.Sign(dirPlayer) * direcPosition.normalized;
+
+            // Eğer karakter sola bakıyorsa yayı 180 derece döndür
+            if (dirPlayer < 0)
             {
-                Invoke(nameof(Shoot),0.51f);
-                _animator.SetBool("attack",true);
-                weapTime = Time.time + coolDownWeap;
-              
-           
+                transform.right = -direction; // Yay sola bakarken sağa dönmek zorunda
             }
             else
             {
-                _animator.SetBool("attack",false);
+                transform.right = new Vector2(direction.x, direction.y); // Yay sağa bakarken normalde
             }
-            
+        }
+
+            rangeControl = transform.GetComponentInParent<TriggerControlArcher>().isInRange;
+
+            if (Time.time > weapTime && rangeControl)
+            {
+                Invoke(nameof(Shoot), 0.51f);
+                _animator.SetBool("attack", true);
+                weapTime = Time.time + coolDownWeap;
+            }
+            else
+            {
+                _animator.SetBool("attack", false);
+            }
+        
     }
+
     void Shoot()
     {
         GameObject newSB = Instantiate(Arrow, shotPoint.position,shotPoint.rotation);

@@ -22,6 +22,10 @@ TagManager:
   - JetPack
   - Witcher
   - Trex
+  - Pool
+  - Obstacle1
+  - Witcherr
+  - ObstacleLevel4
   layers:
   - Default
   - TransparentFX
@@ -34,9 +38,9 @@ TagManager:
   - Wall
   - Ground
   - Enemy
-  - 
-  - 
-  - 
+  - Ghost
+  - Obstacle
+  - Trex
   - 
   - 
   - 

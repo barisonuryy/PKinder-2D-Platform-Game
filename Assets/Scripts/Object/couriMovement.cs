@@ -23,7 +23,7 @@ public class couriMovement : MonoBehaviour
         {
             isYCourie = false;
         }
-        Debug.Log(gameObject.name);
+       
     }
 
     // Update is called once per frame

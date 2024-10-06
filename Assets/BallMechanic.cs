@@ -67,7 +67,7 @@ public class BallMechanic : MonoBehaviour
             
                 distance = -(_lineRenderer.GetComponent<LineRenderer>().GetPosition(1)-_lineRenderer.GetComponent<LineRenderer>().GetPosition(0));
                 tempDistance = distance;
-          
+                Debug.Log("Distance: " + distance);
                 rbCharacter.GetComponent<Rigidbody2D>().velocity = distance * speedXY;
                 Invoke(nameof(ThrowCharacter),0.05f);
             
@@ -77,7 +77,7 @@ public class BallMechanic : MonoBehaviour
         else
         {
             Time.timeScale=Mathf.Lerp(Time.timeScale, 1, Time.deltaTime);
-            Debug.Log("TimeScaleee"+Time.timeScale);
+            
         }
       
     }
@@ -112,8 +112,8 @@ public class BallMechanic : MonoBehaviour
     {
        // rbCharacter.GetComponent<Rigidbody2D>().gravityScale = 0f;
         rbCharacter.GetComponent<SpriteRenderer>().enabled = true;
-        rbCharacter.GetComponent<BasicMech>().enabled = false;
-        rbCharacter.GetComponent<Rigidbody2D>().AddForce( tempDistance * speedScaler,ForceMode2D.Impulse); 
+        rbCharacter.GetComponent<BasicMech>().canUseMovement = false;
+        rbCharacter.GetComponent<Rigidbody2D>().AddForce( distance * speedScaler,ForceMode2D.Impulse); 
         rb.velocity = -tempDistance * 4f;
         Invoke(nameof(ResetGravity),0.25f);
         
@@ -121,7 +121,7 @@ public class BallMechanic : MonoBehaviour
 
     void ResetGravity()
     {
-        rbCharacter.GetComponent<BasicMech>().enabled = true;
+        rbCharacter.GetComponent<BasicMech>().canUseMovement = true;
         rbCharacter.GetComponent<Rigidbody2D>().gravityScale = gravityVal;
     }
 

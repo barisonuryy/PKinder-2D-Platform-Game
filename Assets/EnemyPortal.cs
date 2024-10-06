@@ -19,8 +19,7 @@ public class EnemyPortal : MonoBehaviour
     {
         Debug.Log("Oyuncu carptıx");
         if (other.CompareTag("Player"))
-        {
-            
+        { 
             // Oyuncu portala vurduysa
             DestroyPortal();
         }

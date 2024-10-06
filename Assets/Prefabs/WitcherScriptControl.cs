@@ -26,12 +26,15 @@ public class WitcherScriptControl : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             GetComponent<witcherMovement>().enabled = true;
-            StartCoroutine(GetComponent<witcherMovement>().FirstForm());
+            Invoke(nameof(StartForm), 1);
+           
 
         }
     }
-    
-
+    void StartForm()
+    {
+        StartCoroutine(GetComponent<witcherMovement>().FirstForm());
+    }
     private void OnTriggerStay2D(Collider2D other)
     {
         if (other.CompareTag("Player"))

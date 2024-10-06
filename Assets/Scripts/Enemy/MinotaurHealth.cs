@@ -13,20 +13,24 @@ public class MinotaurHealth : MonoBehaviour
     [SerializeField] ParticleSystem prt;
     private bool canContAttack;
     private Animator anim;
+    LevelManage levelManage;
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponentInParent<Animator>();
         isDead = false;
-        
+        levelManage = GameObject.Find("LevelManager").GetComponent<LevelManage>();
+        smoke = levelManage.smoke;
+
         GetComponentInChildren<MinoHealthUI>().setHealthUI(MinoHealth,MinoMaxHealth);
     }
 
     private void Update()
     {
-        
-        GetComponentInChildren<MinoHealthUI>().setHealthUI(MinoHealth,MinoMaxHealth);
-        canContAttack = GetComponent<meleeAttack>().continueAttack;
+        if (GetComponentInChildren<MinoHealthUI>() != null)
+            GetComponentInChildren<MinoHealthUI>().setHealthUI(MinoHealth,MinoMaxHealth);
+        if (GetComponent<meleeAttack>() != null)
+            canContAttack = GetComponent<meleeAttack>().continueAttack;
     
     }
 

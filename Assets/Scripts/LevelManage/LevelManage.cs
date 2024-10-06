@@ -19,6 +19,7 @@ public class LevelManage : MonoBehaviour
     public AudioSource PauseClick;
     public int score;
     public bool dead;
+    public GameObject smoke;
     [SerializeField] private GameObject mainCharacter;
     [SerializeField] private Slider[] volumeSlider;
      public AudioSource[] audioSource;
@@ -39,13 +40,18 @@ public class LevelManage : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(p!=null)
         p = GetComponentInChildren<Finish>().passed;
-        int health = mainCharacter.GetComponent<PlayerHealth>().initialHealth;
-        if (health == 0)
+        if(mainCharacter != null )
         {
-            //SceneManager.LoadScene("SampleScene");
-            dead = true;
+            int health = mainCharacter.GetComponent<PlayerHealth>().initialHealth;
+            if (health == 0)
+            {
+                //SceneManager.LoadScene("SampleScene");
+                dead = true;
+            }
         }
+       
   
         if (p)
         {
@@ -104,7 +110,7 @@ public class LevelManage : MonoBehaviour
     }
     public void restartGame()
     {
-        mainCharacter.GetComponent<PlayerHealth>().SaveHealthValues();
+        //mainCharacter.GetComponent<PlayerHealth>().SaveHealthValues();
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         Time.timeScale = 1;
     }

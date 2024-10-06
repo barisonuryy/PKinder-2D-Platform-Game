@@ -12,7 +12,11 @@ public class EnemyDeath : MonoBehaviour
     private LevelManage _levelManage;
     // Start is called before the first frame update
 
-
+    private void Start()
+    {
+        _levelManage = GameObject.Find("LevelManager").GetComponent<LevelManage>();
+        smoke = _levelManage.smoke;
+    }
     // Update is called once per frame
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -31,12 +35,7 @@ public class EnemyDeath : MonoBehaviour
 
     private void OnDestroy()
     {
-        if (_levelManage != null)
-        {
-            _levelManage.score += 50;
-            score.GetComponent<Animator>().SetBool("scoreIncrease",true);
-        }
-      
+        
 
 
 

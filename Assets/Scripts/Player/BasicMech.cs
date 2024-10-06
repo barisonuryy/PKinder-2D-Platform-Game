@@ -13,6 +13,7 @@ public class BasicMech : MonoBehaviour
     // Start is called before the first frame update
     public float dirSlide;
     private float directionX;
+    private int originalLayer;
     Rigidbody2D rb;
     Vector2 movement;
     public bool move,jump,slide;
@@ -48,7 +49,7 @@ public class BasicMech : MonoBehaviour
     private bool canUseBoost;
     [SerializeField] private float velocityBooster;
     private float tempVBooster;
-    public bool canUseMovement;
+    public bool canUseMovement,canInteract;
     private void Awake()
     {
         timerJump = 0;
@@ -70,7 +71,7 @@ public class BasicMech : MonoBehaviour
     {
         
         dashControl = false;
-        if(isDashing||!canUseMovement)
+        if(isDashing||!canUseMovement||canInteract)
         {
             return;
         }
@@ -102,7 +103,7 @@ public class BasicMech : MonoBehaviour
     }
 
 
-    void Jump(bool isGrounded)
+    public void Jump(bool isGrounded)
     {
         if (isGrounded &&  moveValue.action.ReadValue<Vector2>().y>=0.5f&&jumpCount<=2)
         {
@@ -187,7 +188,7 @@ public class BasicMech : MonoBehaviour
                         Destroy(enemy, 0.05f);
                  
                     }
-                    if (enemy.gameObject.name == "Minotaur")
+                    if (enemy.gameObject.name == "Minotaur"||enemy.gameObject.name=="Minotaur(Clone)")
                     {
                         enemy.GetComponentInParent<MinotaurHealth>().TakeDamageMinotaur(10);
                     }
@@ -196,15 +197,18 @@ public class BasicMech : MonoBehaviour
                         enemy.GetComponentInParent<GoblinHealth>().TakeDamageGoblin(10);
                     }
 
-                    if (enemy.gameObject.CompareTag("Witcher"))
+                    if (enemy.gameObject.CompareTag("Witcherr"))
                     {
-                        enemy.GetComponent<WitcherHealth>().TakeDamageWitcher(10);
+                        enemy.GetComponentInParent<WitcherHealth>().TakeDamageWitcher(10);
                     }
                     if (enemy.gameObject.CompareTag("LaserEnemy"))
                     {
                         Destroy(enemy.gameObject);
                     }
-                  
+                    if (enemy.gameObject.CompareTag("Trex"))
+                    {
+                        enemy.GetComponent<TrexHealth>().TakeDamageTrex(10);
+                    }
 
                 }
             }
@@ -225,12 +229,12 @@ public class BasicMech : MonoBehaviour
         tr.emitting = true;
         move = false;
         jump = false;
-       
-            foreach (var boxCollider in _boxCollider2DEnemies)
-            {
-                if(boxCollider!=null)
-                boxCollider.isTrigger = true;
-            }
+
+        int playerLayer = gameObject.layer;
+        int enemyLayer = LayerMask.NameToLayer("Enemy");
+
+        // Dash sırasında çarpışmayı devre dışı bırak
+        Physics2D.IgnoreLayerCollision(playerLayer, enemyLayer, true);
 
         yield return new WaitForSeconds(dashingTime);
         tr.emitting = false;
@@ -238,17 +242,14 @@ public class BasicMech : MonoBehaviour
         isDashing = false;
         jump = true; 
        
-            foreach (var boxCollider in _boxCollider2DEnemies)
-            {
-                if(boxCollider!=null)
-                boxCollider.isTrigger = false;
-            }
+        Physics2D.IgnoreLayerCollision(playerLayer, enemyLayer, false);
     
 
         yield return new WaitForSeconds(dashingCoolDown);
         canDash = true;
+        
     }
-    private bool isGrounded()
+    public bool isGrounded()
     {
         float extraHeight = 2.5f;
         RaycastHit2D raycastHit = Physics2D.BoxCast(bc2d.bounds.center, bc2d.bounds.size, 0f, Vector2.down, extraHeight, platformLayerMask);

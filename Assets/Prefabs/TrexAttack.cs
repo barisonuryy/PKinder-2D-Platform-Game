@@ -27,7 +27,7 @@ public class TrexAttack : MonoBehaviour
     [SerializeField] Transform groundCheck;
     [SerializeField] Vector2 boxSize;
     [SerializeField] LayerMask groundLayer;
-    private bool isGrounded;
+    public bool isGrounded;
 
     [Header("ForSeeingPlayer")]
     [SerializeField] Vector2 lineofSite;
@@ -90,7 +90,8 @@ public class TrexAttack : MonoBehaviour
             rb.AddForce(new Vector2(distanceFromPlayer, jumpHeight), ForceMode2D.Impulse);
 
         }
-        else isJump = false;
+        else
+            isJump = false;
        
     }
     private void OnDrawGizmos()
@@ -146,6 +147,7 @@ public class TrexAttack : MonoBehaviour
         if (collision.collider.CompareTag("Player"))
         {
             gameObject.GetComponent<BoxCollider2D>().enabled = false;
+           // collision.collider.GetComponent<PlayerHealth>().TakeDamage(15);
         }
     }
     private void OnCollisionExit2D(Collision2D collision)

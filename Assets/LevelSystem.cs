@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,7 +11,15 @@ public class LevelSystem : MonoBehaviour
 
     private void Awake()
     {
+        if (!PlayerPrefs.HasKey("Initializedd"))
+        {
+            PlayerPrefs.DeleteAll();  // İlk seferde tüm kayıtlı değerleri sıfırla
+            PlayerPrefs.SetInt("Initializedd", 1);  // "Initialized" anahtarını ayarla
+            PlayerPrefs.Save();  // Değişiklikleri kaydet
+        }
+
         int unlockedLevel = PlayerPrefs.GetInt("UnlockedLevel", 1);
+        
         for (int i = 0; i < buttons.Length; i++)
         {
             buttons[i].interactable = false;
@@ -21,6 +29,10 @@ Debug.Log(unlockedLevel);
         {
             buttons[i].interactable = true;
         }
+    }
+    private void Update()
+    {
+        PlayerPrefs.Save();
     }
 
     // Start is called before the first frame update

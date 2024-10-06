@@ -31,7 +31,7 @@ public class Firetrap : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Player")
+        if (collision.CompareTag("Player"))
         {
             if (!triggered)
                 StartCoroutine(ActivateFiretrap());
@@ -41,9 +41,19 @@ public class Firetrap : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Trex"))
         {
-           DeactivateObject();
+            Invoke(nameof(DeactivateObject), 2);
+            
         }
         
+    }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+
+        if (collision.gameObject.CompareTag("Trex"))
+        {
+            if (active)
+            collision.GetComponent<TrexHealth>().TakeDamageTrex(15);
+        }
     }
     private IEnumerator ActivateFiretrap()
     {

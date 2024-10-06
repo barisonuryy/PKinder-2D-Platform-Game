@@ -38,7 +38,7 @@ public class skill_set : MonoBehaviour
             StartCoroutine(updateMana());
         }
         
-        if (Input.GetKeyDown(KeyCode.Z))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             if(!isInarmor&&mana>=10)
             {

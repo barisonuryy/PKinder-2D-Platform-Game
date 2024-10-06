@@ -16,4 +16,12 @@ public class LaserBulletMech : MonoBehaviour
     {
         transform.Translate(Vector2.up*speed*Time.deltaTime);
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.collider.CompareTag("Player"))
+        {
+            collision.gameObject.GetComponent<PlayerHealth>().TakeDamage(0.5f);
+        }
+        Destroy(gameObject);
+    }
 }

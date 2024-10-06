@@ -8,9 +8,11 @@ public class tRexDamageEnemy : MonoBehaviour
     float dir;
     float initialPower;
     [SerializeField] float power;
+    [SerializeField] BasicMech basicMech;
     void Start()
     {
         initialPower = power;
+     
     }
 
     // Update is called once per frame
@@ -25,18 +27,26 @@ public class tRexDamageEnemy : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
 
-            collision.GetComponent<BasicMech>().enabled = false;
+            collision.GetComponent<BasicMech>().canUseMovement = false;
             collision.GetComponent<Rigidbody2D>().AddForce(new Vector2(dir * power * Time.deltaTime, 0), ForceMode2D.Impulse);
             // power = Mathf.Lerp(power, power - 10, Time.deltaTime);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player")&&basicMech.isGrounded())
+        {
+            collision.gameObject.GetComponent<PlayerHealth>().TakeDamage(1);
         }
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            collision.GetComponent<BasicMech>().enabled = true;
+            collision.GetComponent<BasicMech>().canUseMovement = true;
             power = initialPower;
 
         }
     }
+    
 }
