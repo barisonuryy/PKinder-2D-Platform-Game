@@ -20,8 +20,10 @@ Will you be able to guide the penguin back to its family and bring them home saf
 ![image](https://github.com/user-attachments/assets/b4cc378d-4595-4b12-9ad5-2b4526904291)
 
 **Supported Platforms**
--Android(it will be soon)
+
 -PC
+
+-Android(it will be soon)
 
 
 
